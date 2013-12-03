@@ -1,0 +1,49 @@
+title: Interpreted Dance
+tagline: gettup get down
+description: Blog about bear stuffs
+#Comment out url when working locally to resolve base urls correctly
+#url: http://jamisondance.com
+
+authors:
+  jamison:
+    bio: "Jamison Dance is a software engineer at i.TV. He enjoys kittens, making computers smarter and the magic of children's laughter. He writes at <a href='http://jamisondance.com'>http://jamisondance.com</a>, tweets at <a href='http://twitter.com/jergason'>@jergason</a>, and GitHubs as <a href='https://github.com/jergason'>jergason</a>. He also podcasts on <a href='http://javascriptjabber'>JavaScript Jabber</a>."
+    display_name: Jamison Dance
+    gravatar: 6b3da28d67c0c30048665399688f0fdc
+    email: jamison@i.tv
+    web: http://jamisondance.com
+    twitter: jergason
+    github: jergason
+
+
+# Owner/author information
+owner:
+  name: Jamison Dance
+  #avatar:         avatar.png
+  #bio:            "Aesthete & Athlete"
+  email: jergason@gmail.com
+  twitter: jergason
+  github: jergason
+  disqus: jergason
+  # Plug in your disqus shortname!
+
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About Me
+    url: /about
+    external: false
+  - title: GitHub
+    url: https://github.com/jergason
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Denver
+future:      true
+pygments:    true
+markdown:    redcarpet
+
+permalink: /:month-:day-:year/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
