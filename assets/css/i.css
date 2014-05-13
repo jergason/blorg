@@ -308,7 +308,7 @@ code {
   font-weight: bold;
 }
 
-.highlight {
+div.highlight {
   background: #3b3b3b;
   padding: 12px;
   border-radius: 4px;

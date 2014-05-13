@@ -20,30 +20,7 @@ First, let's make a basic app with a component. We grab the ember dependencies
 and create a template for our component.
 
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Ember Starter Kit</title>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v1.3.0.js"></script>
-  <script src="http://builds.emberjs.com/tags/v1.5.0/ember.js"></script>
-</head>
-<body>
-
-  <script type="text/x-handlebars">
-    <h2> Welcome to Ember.js</h2>
-    {{canvas-thing}}
-  </script>
-  <script type="text/x-handlebars" data-template-name="components/canvas-thing">
-    Your browser doesn't support canvas. :(
-  </script>
-</body>
-</html>
-```
-
+<script src='https://gist.github.com/anonymous/89fd59649a8e856e700e.js'></script>
 
 Notice the name is `"compontents/canvas-thing"`. Ember components must have a
 dash in their name, and the template name must start with `component/`. See
@@ -54,17 +31,7 @@ The default HTML tag for a component is a &lt;div&gt;. Since we want to use a
 &lt;canvas&gt; tag, we need to create a custom JavaScript class to override it.
 This will come in handy later when we need to draw in it as well.
 
-```
-App = Ember.Application.create();
-
-
-App.CanvasThingComponent = Ember.Component.extend({
-  tagName: 'canvas',
-  width: 100,
-  height: 100,
-  attributeBindings: ['width','height']
-});
-```
+<script src='https://gist.github.com/anonymous/0f783177017b60096814.js'></script>
 
 We create a component subclass, override the html tag, and set some default
 attributes to control the element size. Again, pretty basic stuff.
@@ -78,16 +45,7 @@ hook, which will be called once our canvas is in the DOM. Let's implement it
 to draw some stuff!
 
 
-```
-App.CanvasThingComponent = Ember.Component.extend({
-  // other stuff elided
-  didInsertElement: function() {
-    var ctx = this.get('element').getContext('2d')
-     ctx.fillStyle = "#000";
-     ctx.fillRect(0, 0, this.get('width'), this.get('height'));
-  }
-});
-```
+<script src='https://gist.github.com/anonymous/6fa8cc1b494e360bc05d.js'></script>
 
 
 You should see a black box on your screen. Take a moment now to stand up and
@@ -103,59 +61,7 @@ when your data changes! Let's fix that.
 To update the component when data changes, we can just create a `draw` method
 that draws the data, and observes the data. Looky here:
 
-```
-App.CanvasThingComponent = Ember.Component.extend({
-  // other stuff elided
-  didInsertElement: function() {
-    // gotta set ctxf here instead of in init because
-    // the element might not be in the dom yet in init
-    this.set('ctx', this.get('element').getContext('2d'));
-    this._empty();
-    this.draw();
-  },
-
-  draw: function() {
-    this._empty();
-    var ctx = this.get('ctx');
-    ctx.strokeStyle = '#DE28B3';
-    console.log(this.get('data'));
-    ctx.strokeText(this.get('data'), this.get('width')/4, this.get('height')/2);
-
-    // draw some stars yo
-    this._star(40, 40);
-    this._star(300, 300);
-    this._star(123, 250);
-    this._star(320, 90);
-  }.observes('data'),
-
-  _empty: function() {
-    var ctx = this.get('ctx');
-    ctx.fillStyle = '#fff';
-    ctx.fillRect(0, 0, this.get('width'), this.get('height'));
-  },
-
-  _star: function(x, y) {
-    var radius = 20;
-    var points = 5;
-    var inset = 0.5;
-    var ctx = this.get('ctx');
-
-    ctx.save();
-    ctx.beginPath();
-    ctx.fillStyle = '#FAFF66';
-    ctx.translate(x, y);
-    ctx.moveTo(0,0-radius);
-    for (var i = 0; i < points; i++) {
-      ctx.rotate(Math.PI / points);
-      ctx.lineTo(0, 0 - (radius*inset));
-      ctx.rotate(Math.PI / points);
-      ctx.lineTo(0, 0 - radius);
-    }
-    ctx.fill();
-    ctx.restore();
-  }
-});
-```
+<script src='https://gist.github.com/anonymous/6755560b28a16af654ed.js'></script>
 
 This got a little more complex, but the concepts are simple. We create a `draw`
 method like we said. It draws the `data` as text, and then some sweet stars
@@ -165,14 +71,7 @@ The important thing to note is the `.observes('data')` at the end of the `draw`
 method. This calls `draw` whenever the data changes. We'll add a little input
 helper to the application template to show this off.
 
-
-```html
-<script type="text/x-handlebars">
-  <h2> Welcome to Ember.js</h2>
-  {{canvas-thing data=someControllerStuff}}
-  {{input placeholder="Type some swagtastic text" value=someControllerStuff}}
-</script>
-```
+<script src='https://gist.github.com/anonymous/ce353cbacdcb177c762f.js'></script>
 
 We grab the text from the input and send it in to the component. Watch how
 it updates, and also sparkles. Pretty neat!
