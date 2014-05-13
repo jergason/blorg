@@ -47,7 +47,7 @@ and create a template for our component.
 
 Notice the name is `"compontents/canvas-thing"`. Ember components must have a
 dash in their name, and the template name must start with `component/`. See
-the [guide](http://emberjs.com/guides/components/defining-a-component/) for
+the [components guide](http://emberjs.com/guides/components/defining-a-component/) for
 more specifics on this.
 
 The default HTML tag for a component is a &lt;div&gt;. Since we want to use a
@@ -73,7 +73,7 @@ attributes to control the element size. Again, pretty basic stuff.
 ## Draw me like one of your french components
 
 An empty canvas element is pretty lame. We still haven't drawn anything. Ember
-provides the [didInsertElement](https://github.com/emberjs/ember.js/blob/d6c3366c84d3bc793c12dd98aec65dd4a9437ca9/packages_es6/ember-views/lib/views/view.js#L1760),
+provides the [didInsertElement](https://github.com/emberjs/ember.js/blob/d6c3366c84d3bc793c12dd98aec65dd4a9437ca9/packages_es6/ember-views/lib/views/view.js#L1760)
 hook, which will be called once our canvas is in the DOM. Let's implement it
 to draw some stuff!
 
@@ -96,7 +96,7 @@ head, because you are awesome.
 
 
 However, this isn't actually rendering any of your data. Worse, it won't update
-anything when your data changes! Let's fix that.
+when your data changes! Let's fix that.
 
 ## Updating when data changes
 
@@ -162,9 +162,8 @@ method like we said. It draws the `data` as text, and then some sweet stars
 for bling. The rest is cleanup and helper functions around this.
 
 The important thing to note is the `.observes('data')` at the end of the `draw`
-method. Not only do we call `draw` when the component is first inserted into
-the DOM, but we also redraw it whenever the data changes. We also add a little
-input helper to the application template to show this off.
+method. This calls `draw` whenever the data changes. We'll add a little input
+helper to the application template to show this off.
 
 
 ```html
@@ -181,4 +180,4 @@ it updates, and also sparkles. Pretty neat!
 If you want to see the final thing in action, check out the
 [JSBin](http://emberjs.jsbin.com/zetereka/4/edit). If you make it draw cooler
 things than stars, like dinosaurs or laser beams or laser dinosaurs, please
-let me know.
+let me know [@jergason](https://twitter.com/jergason).
