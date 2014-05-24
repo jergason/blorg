@@ -83,4 +83,7 @@ app.listen(1338) // EVEN MORE L33T
 
 It accepts POST and GET requests at `/hurp` and serves static files from a
 `/public` directory. It also eschews semicolons for RAW SPEED. Let's run some
-simple load tests with [`ab`](apache benchmark).
+simple load tests with [`gatling`](http://gatling-tool.org/), an open-source
+load-testing tool. It is super ugly, so you know it is good.
+
+

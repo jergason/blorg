@@ -76,7 +76,9 @@ helper to the application template to show this off.
 We grab the text from the input and send it in to the component. Watch how
 it updates, and also sparkles. Pretty neat!
 
-If you want to see the final thing in action, check out the
-[JSBin](http://emberjs.jsbin.com/zetereka/4/edit). If you make it draw cooler
-things than stars, like dinosaurs or laser beams or laser dinosaurs, please
-let me know [@jergason](https://twitter.com/jergason).
+Behold the final result:
+
+<a class="jsbin-embed" href="http://emberjs.jsbin.com/zetereka/4/embed?output">Ember Starter Kit</a><script src="http://static.jsbin.com/js/embed.js"></script>
+
+If you make it draw cooler things than stars, like dinosaurs or laser beams or
+laser dinosaurs, please let me know [@jergason](https://twitter.com/jergason).
