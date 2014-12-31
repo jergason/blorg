@@ -88,7 +88,7 @@ mistakes. It turns out all those vague feel-good TED talks are right. You do
 actually learn much better when you make mistakes as part of learning, and you
 learn worse when you try to avoid mistakes.
 
-Because science is neat, there is experimental evidence demonstrating this. Here
+Because science is swell, there is experimental evidence demonstrating this. Here
 is one experiment. The task is to memorize a list of word pairs. Dolphin - mammal,
 Arby's® - heavenly, Jamison - sellout, etc. In one group, they are shown the
 word pairs for 13 seconds and told to study them. In the second group, they are
@@ -96,6 +96,10 @@ shown the first word for eight seconds and told to think of a potential answer.
 Jamison - Schwarzenegger. Then they are shown the second word for five seconds.
 The group that had to guess the second word, even though they never guess it
 correctly, are MUCH better at remembering the word pairs.
+
+Here is the money-quote:
+> [L]ong-term learning benefited when participants were asked questions that
+> they could not answer prior to studying text materials.
 
 Asking questions that you have no way of knowing the right answer, provided you
 then look up the right answer, greatly increases long-term memory.
@@ -106,39 +110,43 @@ isn't just mushiness, but SCIENCE!
 
 
 ## We are real real bad at knowing how we learn
-Despite our brains being rad, such that zombies would desire to eat them, they
+Despite our brains being rad such that zombies would desire to eat them, they
 also have some pretty weird things going on that make us HORRIBLE at identifying
 how long it will take to learn things and how well we know them.
 We routinely overestimate competence (hello [Dunning-Kruger](linky)), which leads we to
 be blindsided when we fail some test or can't recall things we thought we learned. [Hindsight bias](linky)
 means when we *do* learn, we assume that we already knew what we just
 learned. Sometimes we learn without even consciously realizing we learned something!
+This sounds like a recipe for being a know-it-all jerk-face.
 [Stability bias](linky) means that we assume what we know now
 will stay static - we won't forget things we know now, and we won't learn
 new things or know things better in the future.
 
 All these problems with self-assessment mean we sometimes do some really dumb
-things when trying to learn, because we can't properly judge that they don't
+things when trying to learn because we can't properly judge that they don't
 work well.
 
 ## Programming and learning
 This article is geared towards students. How does it apply if we aren't sitting
-in classrooms trying to learn for a scheduled test?
+in classrooms or cramming from textbooks? How does it it apply to YOU, dear
+reader?
 
-A main takeaway is that learning is a skill separate from knowledge. Learning
-about programming or software development is a discrete skill that I have never
-examined or tried to develop. I try to learn frameworks or techniques or
-languages, but just like students can learn how to learn, I can learn how to
-learn to build software better.
+Learning is a skill separate from knowledge. Learning about software
+development is a discrete skill that can be developed. I try to learn
+frameworks or techniques or languages, but just like students can learn how to
+learn, I can learn how to learn to build software better.
 
-Another takeaway is that programming, with its emphasis on DOING things, is
-actually a pretty good laboratory for learning. When someone wants to learn a
-language, the canonical answer is to find a toy project to use the language,
-not read through the entire documentation for the language. You learn CSS things
-<strikethrough>by selling your soul to the devil</strikethrough> building things
+
+Programming, with its emphasis on DOING things, is actually a pretty good
+laboratory for learning. When someone wants to learn a language the canonical
+answer is to find a toy project to use the language. You learn CSS things by
+<strikethrough>selling your soul to the devil</strikethrough> building things
 with CSS. The community's emphasis on blogging and speaking at meetups and
 conferences to share knowledge requires people summarize information and test
 themselves. If you try to learn how to program better, you are guided down a
 path that is reasonably effective. How neat!
 
-
+Programming is a skill that can be developed, not a list of facts to memorize.
+There is a ton of research on practice and skill development, often focused on
+music or sports. The next stop on the metacognition journey is to read about
+skill development to see if that lit-truh-cha can be applied to software.
