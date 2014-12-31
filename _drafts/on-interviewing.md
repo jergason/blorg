@@ -8,10 +8,11 @@ tags: [rants interviewing]
 ---
 
 I'm in the process of switching jobs, which means interviews. Part of your job
-when interviewing at a company is to demonstrate compentence (which is a very
-different skill than "being good at your job"). Your other main purpose is to
-determine if you want to work at the company you are intervewing at.
+when interviewing at a company is to demonstrate competence (which is a very
+different skill than "being good at your job"). The other part is discovering
+whether you would like working there.
 
+Just like try to present your best self in an interview, you might 
 
 written about [how](http://psycnet.apa.org/index.cfm?fa=buy.optionToBuy&uid=1998-10661-006)
 [interviews](http://www.thedailybeast.com/articles/2013/06/20/even-google-doesn-t-do-interviews-better.html)
