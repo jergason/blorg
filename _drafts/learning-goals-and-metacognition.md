@@ -21,6 +21,7 @@ I'll do this year, but lots of them involve learning or developing new skills.
 0. develop the power of flight
 0. increase bench press from 1 million pounds to 2 million pounds
 0. save the president from ninjas (again ugh)
+0. do a season of javascript jabber about a murder mystery (5 MILLION DOWNLOADS HERE WE COME)
 
 This suggests a meta-goal to get better at learning. I realized I don't really
 know anything about learning besides "study real good", so to start out I read
@@ -34,7 +35,7 @@ My model for brains and memory was like a crappy hard drive: there is some space
 in your head, and when you learn stuff you shove that knowledge in to your
 head in a specific spot, filling up that space. When you remember stuff you
 pull it out of this storage space and impress everyone at the party with your
-scintillating analysis of Kim Jong Un's physiognomy that you actually pulled from
+scintillating analysis of Kim Jong Un's physiognomy that you actually stole from
 that Vice.com article.
 
 [picture of kim jong un]
@@ -65,14 +66,79 @@ Brains are rad. Your brain is rad.
 ## Learning happens from action
 
 In college I spent many hours sitting in lectures or poring over textbooks. It
-turns out that passively recieving information is the worst way to learn
-something.
+turns out that passively receiving information is the worst way to learn. A
+large number of studies confirm that actively working with new information
+increases long-term memory. Summarizing new information, teaching others,
+testing yourself and asking questions are all waaaaaaaaay more effective than
+re-reading the textbook. Also, spacing out learning works better than long
+blocks, and switching up subjects works better than focusing on one topic
+for hours at a time.
 
+
+#TODO: FIX THIS
+I don't have a fancy analogy for this topic. Basically, if you are spending
+time studying, you might as well put in effort to do it well.
 
 ## Errors increase learning
+I make a lot of mistakes. I made a bunch while writing this blog post! I have
+left some in as a puzzle for you to find.
 
-## We are real real bad at judging how well we have learned things
+Sometimes people are afraid of looking dumb while learning, so they avoid
+mistakes. It turns out all those vague feel-good TED talks are right. You do
+actually learn much better when you make mistakes as part of learning, and you
+learn worse when you try to avoid mistakes.
+
+Because science is neat, there is experimental evidence demonstrating this. Here
+is one experiment. The task is to memorize a list of word pairs. Dolphin - mammal,
+Arby's® - heavenly, Jamison - sellout, etc. In one group, they are shown the
+word pairs for 13 seconds and told to study them. In the second group, they are
+shown the first word for eight seconds and told to think of a potential answer.
+Jamison - Schwarzenegger. Then they are shown the second word for five seconds.
+The group that had to guess the second word, even though they never guess it
+correctly, are MUCH better at remembering the word pairs.
+
+Asking questions that you have no way of knowing the right answer, provided you
+then look up the right answer, greatly increases long-term memory.
+
+What is that sound I hear? Toot toot toot it is me tooting my own horn. I wrote
+about my philosophy of making [50,000 mistakes](linky here) earlier. Now it
+isn't just mushiness, but SCIENCE!
+
+
+## We are real real bad at knowing how we learn
+Despite our brains being rad, such that zombies would desire to eat them, they
+also have some pretty weird things going on that make us HORRIBLE at identifying
+how long it will take to learn things and how well we know them.
+We routinely overestimate competence (hello [Dunning-Kruger](linky)), which leads we to
+be blindsided when we fail some test or can't recall things we thought we learned. [Hindsight bias](linky)
+means when we *do* learn, we assume that we already knew what we just
+learned. Sometimes we learn without even consciously realizing we learned something!
+[Stability bias](linky) means that we assume what we know now
+will stay static - we won't forget things we know now, and we won't learn
+new things or know things better in the future.
+
+All these problems with self-assessment mean we sometimes do some really dumb
+things when trying to learn, because we can't properly judge that they don't
+work well.
 
 ## Programming and learning
+This article is geared towards students. How does it apply if we aren't sitting
+in classrooms trying to learn for a scheduled test?
+
+A main takeaway is that learning is a skill separate from knowledge. Learning
+about programming or software development is a discrete skill that I have never
+examined or tried to develop. I try to learn frameworks or techniques or
+languages, but just like students can learn how to learn, I can learn how to
+learn to build software better.
+
+Another takeaway is that programming, with its emphasis on DOING things, is
+actually a pretty good laboratory for learning. When someone wants to learn a
+language, the canonical answer is to find a toy project to use the language,
+not read through the entire documentation for the language. You learn CSS things
+<strikethrough>by selling your soul to the devil</strikethrough> building things
+with CSS. The community's emphasis on blogging and speaking at meetups and
+conferences to share knowledge requires people summarize information and test
+themselves. If you try to learn how to program better, you are guided down a
+path that is reasonably effective. How neat!
 
 
