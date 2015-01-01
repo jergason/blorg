@@ -13,18 +13,7 @@ goals here because I don't like preemptively bragging about things I'll do this
 year, but lots of them involve learning or developing new skills.
 
 
-[paper drawing of goals]
-(put the paintbrush app in here)
-## Ye Olde Goals
-
-
-0. more air horns
-0. write a blog post about haskell to casually inform everyone you are learning
-   haskell
-0. develop the power of flight
-0. increase bench press from 1 million pounds to 2 million pounds
-0. save the president from ninjas (again ugh)
-0. do a season of javascript jabber about a murder mystery (5 MILLION DOWNLOADS HERE WE COME)
+![ye olde goals](/images/goals.png)
 
 
 This suggests a meta-goal to get better at learning and improving. I don't
@@ -45,7 +34,7 @@ scintillating analysis of Kim Jong Un's physiognomy that you actually stole from
 that Vice.com article.
 
 
-[picture of kim jong un]
+![kim jong un](/images/kim-jong-un.png)
 
 
 This is untrue. Your brain is way cooler than a computer. It is more like
@@ -64,7 +53,7 @@ understanding. With your brain, having more information to create connections
 to what you are learning makes that information stick better.
 
 
-[picture of a plant]
+![a tiny plant](/images/leaf.png)
 
 
 A mindblowing consequence of this that our capacity to learn appears infinite.
@@ -88,12 +77,6 @@ textbook. Also, spacing out learning works better than long blocks, and
 switching up subjects works better than focusing on one topic for hours at a
 time.
 
-
-# TODO: FIX THIS
-
-
-I don't have a fancy analogy for this topic. Basically, if you are spending
-time studying, you might as well put in effort to do it well.
 
 ## Errors increase learning
 
