@@ -56,7 +56,7 @@ to what you are learning makes that information stick better.
 ![a tiny plant](/images/leaf.png)
 
 
-A mindblowing consequence of this that our capacity to learn appears infinite.
+A mindblowing consequence of this is that our capacity to learn appears infinite.
 There is no such thing as "running out of space". In fact, learning appears to
 **increase** the ease of learning new information by providing more possible
 connections for your to-be-formed memories.
