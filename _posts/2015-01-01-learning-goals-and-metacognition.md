@@ -152,7 +152,7 @@ learn, I can learn how to learn to build software better.
 Programming, with its emphasis on DOING things, is actually a pretty good
 laboratory for learning. When someone wants to learn a language the canonical
 answer is to find a toy project to use the language. You learn CSS things by
-<strikethrough>selling your soul to the devil</strikethrough> building things
+<del>selling your soul to the devil</del> building things
 with CSS. The community's emphasis on blogging and speaking at meetups and
 conferences to share knowledge means people summarize information and test
 themselves. If you try to learn how to program better, you are guided down a
