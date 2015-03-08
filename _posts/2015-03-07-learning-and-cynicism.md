@@ -31,10 +31,10 @@ thought, so we trust our experience, we dogmaticize it, we turn our pain and
 the bleached bones of dead projects to "best practices", and in turn, we
 ourselves ossify.
 
-New ideas or new technologies remind us of old pain and bounce off the
-carapace of built-up wisdom. Eventually we are so encumbered by experience that
-we become brittle and immobilized and changes in technology or culture or
-management crumble us to dust.
+New ideas or new technologies remind you of old pain and bounce off the
+carapace of built-up wisdom. Eventually you are so encumbered by experience that
+you become brittle and immobilized and changes in technology or culture or
+management crumble you to dust.
 
 ## PUPPY BREAK
 
@@ -54,5 +54,7 @@ Destination at the end of this path is
 Type one vs type two errors - the cost of falsely identifying something as
 painful or wrong when it isn't is hard to measure. The
 
-Experience is a good thing. Software development without experience without
-wisdom is kkkkkk
+Experience is a good thing. Alan Kay called software a [pop culture](http://queue.acm.org/detail.cfm?id=1039523),
+which is what happens when you don't build on the past. We need to learn from
+the past to improve. Software is not music - while it has cycles and styles,
+overall progress is possible.
