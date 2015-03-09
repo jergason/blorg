@@ -28,7 +28,7 @@ sucks you were *RIGHT* to hate it. If you hated a thing and the problem was
 *you*, you face the cold reality that maybe you did something wrong last time
 around.  Most of us cannot bear to gaze into the abyss that yawns behind that
 thought, so we trust our experience, we dogmaticize it, we turn our pain and
-the bleached bones of dead projects to "best practices", and in turn, we
+the bleached bones of dead projects to best practices, and in turn, we
 ourselves ossify.
 
 New ideas or new technologies remind you of old pain and bounce off the
@@ -36,7 +36,6 @@ carapace of built-up wisdom. Eventually you are so encumbered by experience that
 you become brittle and immobilized and changes in technology or culture or
 management crumble you to dust.
 
-## PUPPY BREAK
 
 If you don't share experience with others, your effectiveness will never scale
 beyond your own efforts. If you impart your battle scars on others without
@@ -45,6 +44,17 @@ believe you to miss out on awesome things. The challenge of the experienced
 developer is to pass on wisdom without passing on dogma.
 
 
+## puppy break
+
+I'm not arguing against experience. Some things are demonstrably better than others.
+Reading "on the characteristics for decomposition in to modules (whatever it is)"
+their example task takes a few days or weeks with the tools of the day, while it would
+take only a few hours today. Things are getting easier, but some things are also
+getting harder. Valuable experience is the ability to generalize from failure or
+success to the team you are talking to now.
+
+If you are an experienced developer, and you are also the team curmudgeon, consider
+being less grumpy? How do you tell the diff between good advice and bad?
 
 They become weighty, carved from stone and carried down from the mountain so
 they must be from god.
