@@ -34,7 +34,7 @@ sucks you were *RIGHT* to hate it. If you hated a thing and the problem was
 *you*, you face the cold reality that maybe you did something wrong last time
 around.  Most of us cannot bear to gaze into the abyss that yawns behind that
 thought, so we trust our experience, we dogmaticize it, we turn our pain and
-the bleached bones of dead projects to best practices, and we ossify.
+the bleached bones of dead projects in to best practices and we ossify.
 
 
 New ideas or new technologies remind you of old pain and bounce off the
@@ -43,7 +43,7 @@ you become brittle and immobilized and changes in technology or culture or
 management crumble you to dust.
 
 
-If you don't share experience with others, your effectiveness will never scale
+If you don't share experience with others your effectiveness will never scale
 beyond your own efforts. If you impart your battle scars on others without
 considering the circumstances in which they were inflicted, people who believe
 you will miss out on awesome things. The challenge of the experienced developer
@@ -117,7 +117,9 @@ alien robot orangutans, it might still be a good fit."
 
 The difference between saying "I used X and it sucked" and "I used X for Y and
 it didn't work out because of Z" is the difference between becoming experienced
-and simply growing cynical. Be experienced, not cynical.
+and simply growing cynical. 
+
+Be experienced. Not cynical.
 
 [gasp]: /images/cynicism/gasp.png
 [lobster]: /images/cynicism/lobster.png
