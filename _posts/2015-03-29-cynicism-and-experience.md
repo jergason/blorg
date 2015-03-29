@@ -12,7 +12,7 @@ One output of experience is an ever-increasing list of things that caused you
 pain in the past. Because you are not a monster, you want to save other people
 pain. When you see them doing things that caused you pain, you warn them.
 
-These warning can come in several forms - don't use this specific library, stay
+These warnings can come in several forms - don't use this specific library, stay
 away from this tool, this programming language is slow, this pattern is for
 architecture astronauts, the entire paradigm of [current popular thing] is
 fundamentally flawed.
