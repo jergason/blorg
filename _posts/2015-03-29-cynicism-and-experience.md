@@ -31,10 +31,10 @@ monster you barely escaped in your younger days.
 
 It also means that your experience is validated - if you hated a thing and it
 sucks you were *RIGHT* to hate it. If you hated a thing and the problem was
-*you*, you face the cold reality that maybe you did something wrong last time
-around.  Most of us cannot bear to gaze into the abyss that yawns behind that
-thought, so we trust our experience, we dogmaticize it, we turn our pain and
-the bleached bones of dead projects to best practices, and we ossify.
+*you*, you face the cold reality that maybe you did something wrong. Most of us
+cannot bear to gaze into the abyss that yawns behind that thought, so we trust
+our experience, we dogmaticize it, we turn our pain and the bleached bones of
+dead projects to best practices, and we ossify.
 
 
 New ideas or new technologies remind you of old pain and bounce off the
@@ -47,7 +47,7 @@ If you don't share experience with others, your effectiveness will never scale
 beyond your own efforts. If you impart your battle scars on others without
 considering the circumstances in which they were inflicted, people who believe
 you will miss out on awesome things. The challenge of the experienced developer
-is to pass on wisdom without passing on dogma, but most developers believes
+is to pass on wisdom without passing on dogma, but most developers think
 their personal experience should be enshrined as a best practice.
 
 
@@ -74,8 +74,8 @@ based around sorting strings.
 good programmer within a week or two.
 
 Thanks to the accumulated experience and effort of hardware designers, language
-designers, and library creators, a competent programmer with could build it in
-a few hours today. Progress due to experience is real!
+designers, and library creators, a competent programmer could build it in a few
+hours today. Progress due to experience is real!
 
 If experience can be harmful, but also enables progress, what is the right
 way to share your experience with others? How do you gain experience
@@ -110,14 +110,17 @@ are awful and no one should ever use them.
 Alternatively, you could scope your argument to the problem at hand.
 
 
-"I used Oook! on a past project that failed. The project was to build a web app,
-and Ook! is focused on low-level programming and monkeys, so it wasn't a great
-fit for that problem. On this project, since we are trying to communicate with
-alien robot orangutans, it might still be a good fit."
+"I used Oook! on a past project that failed. The project was to build a web
+app, and Ook! is focused on low-level programming and simians, so it wasn't a
+great fit for that problem. Also, a social network for people who hate social
+networks was probably not the best idea. On this project, since we are trying
+to communicate with alien robot orangutans, it might still be a good fit."
 
 The difference between saying "I used X and it sucked" and "I used X for Y and
 it didn't work out because of Z" is the difference between becoming experienced
-and simply growing cynical. Be experienced, not cynical.
+and simply growing cynical.
+
+Be experienced, not cynical.
 
 [gasp]: /images/cynicism/gasp.png
 [lobster]: /images/cynicism/lobster.png
