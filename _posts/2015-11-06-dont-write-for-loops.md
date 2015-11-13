@@ -8,7 +8,7 @@ description: ""
 
 Behold, a for loop!
 
-```JavaScript
+```javascript
 var output = []
 for (let i = 0; i < array.length; i++) {
   let changedData = changeData(array[i])
@@ -24,7 +24,7 @@ array.
 We can clean it up a little, but the for loop book-keeping still takes up more
 space than operating on the data.
 
-```JavaScript
+```javascript
 var output = []
 for (let i = 0; i < array.length; i++) {
   output.push(changeData(array[i])
@@ -36,7 +36,7 @@ CODE-READER WE ARE LOOPING OVER A THING". What we need is an abstraction for
 transforming each item in an array into a different item in a new array. If
 only such a thing existed OH WAIT IT DOES.
 
-```JavaScript
+```javascript
 const output = array.map(changeData)
 ```
 
@@ -62,7 +62,7 @@ If you want to remove some items from an array, use
 [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
 If I want to get only the minerals out of an array of objects, I could do it like so:
 
-```JavaScript
+```javascript
 let objects = [
   {name: 'gold', type: 'mineral'},
   {name: 'potato', type: 'vegetable'},
@@ -83,7 +83,7 @@ are siblings. Both take a callback, and return the first item in the array
 that the callback returns `true` for. `find` returns the item, and I bet you
 can guess what `findIndex` returns.
 
-```JavaScript
+```javascript
 // find the spy
 let suspects = [
   {name: 'Yolo Swaggins', isSpy: false},
@@ -102,7 +102,7 @@ true if *any* item in your array makes your callback return true.
 
 Let's use `some` to tell if Sara likes any hair metal bands.
 
-```JavaScript
+```javascript
 let sarasFavoriteBands = [
   {name: 'Whitesnake', hairLength: 'long', makeup: true}
   {name: 'Mastodon', hairLength: 'long', makeup: false},
@@ -118,7 +118,7 @@ takes in an array and "reduces" it down to a single value.
 Liz is a bodybuilder. She wants to know how many total pounds she lifts in a
 workout. We can use `reduce` to do that.
 
-```JavaScript
+```javascript
 let workout = [
   {exercise: 'back squat', weight: 150, sets: 5, reps: 10},
   {exercise: 'deadlift', weight: 245, sets: 5, reps: 5},
