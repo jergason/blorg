@@ -29,7 +29,7 @@ your Elm app. Here is an example to make this more clear.
 In the JavaScript, just pass in an object to `Elm.embed`:
 
 
-```JavaScript
+```javascript
 import Elm from './src/Main.elm'
 
 const container = document.querySelector('.app')
@@ -40,7 +40,7 @@ const elmApp = Elm.embed(Elm.Main, container, {getStartTime: Date.now()})
 In the Elm side, make a port to handle it:
 
 
-```Haskell
+```haskell
 import Graphics.Element exposing (show)
 import Time exposing (Time)
 
