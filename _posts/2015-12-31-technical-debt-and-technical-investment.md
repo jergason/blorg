@@ -8,7 +8,7 @@ published: true
 
 ## Technical debt
 
-Technical debt is tool for talking about trade-offs in software engineering.
+Technical debt is a tool for talking about trade-offs in software engineering.
 When you take on technical debt <sup><a href="#fn1" name="fn1src">[1]</a></sup>,
 you build something quick and dirty that will be harder to maintain or change
 down the line. The cost of maintaining the quick and dirty code or
@@ -42,7 +42,7 @@ that people pay money for or use basically never happens.
 
 Tools and techniques that are productive in the initial prototyping phase
 sometimes struggle with the complexities of larger products. If you don't
-invest to handle that complexity development speed will slow down as complexity
+invest to handle that complexity, development speed will slow down as complexity
 increases. Technical investment can scale your team's productivity with the
 complexity of the product and the size of the team.
 
@@ -82,7 +82,7 @@ will gain a significant user base in the next few years.
 ### Observables
 
 This includes things like [RxJS](https://github.com/Reactive-Extensions/RxJS),
-frameworks build on observables like [Cycle.js](http://cycle.js.org/), and also
+frameworks built on observables like [Cycle.js](http://cycle.js.org/), and also
 the general practice of using observables to manage state and communication in
 a JavaScript application. I don't think we've arrived at a good solution for
 managing state in client-side JavaScript. Observables seem like a good candidate
@@ -92,8 +92,8 @@ for a better way.
 
 I'll probably write more about this, but the summary is that junior developers
 are wildly undervalued in a job market that is always desperate to hire. The
-team and company that work productively with junior developers, and help them
-grow in to senior developers, will have a huge advantage in hiring.
+team or company that works productively with junior developers and helps them
+grow in to senior developers will have a huge advantage in hiring.
 
 
 ## Technical debt and technical investment
