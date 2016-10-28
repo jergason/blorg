@@ -2,15 +2,14 @@ title: Interpreted Dance
 tagline: gettup get down
 description: Blog about bear stuffs
 #Comment out url when working locally to resolve base urls correctly
-#url: http://jamisondance.com
+# url: //jamison.dance
 
 authors:
   jamison:
     bio: "Jamison Dance enjoys kittens, making computers smarter and the magic of children's laughter. He tweets at <a href='http://twitter.com/jergason'>@jergason</a> and GitHubs as <a href='https://github.com/jergason'>jergason</a>. He also podcasts on <a href='http://javascriptjabber.com'>JavaScript Jabber</a> and <a href='https://softskills.audio'>Soft Skills Engineering</a>."
     display_name: Jamison Dance
     gravatar: 6b3da28d67c0c30048665399688f0fdc
-    email: jergason@gmail.com
-    web: http://jamisondance.com
+    email: hi@jamison.dance
     twitter: jergason
     github: jergason
 
@@ -18,9 +17,7 @@ authors:
 # Owner/author information
 owner:
   name: Jamison Dance
-  #avatar:         avatar.png
-  #bio:            "Aesthete & Athlete"
-  email: jergason@gmail.com
+  email: hi@jamison.dance
   twitter: jergason
   github: jergason
   disqus: jergason
