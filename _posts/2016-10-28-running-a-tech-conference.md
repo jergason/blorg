@@ -3,7 +3,7 @@ author: jamison
 layout: post-light-feature
 image:
         feature: "react-rally-2016/poster.jpg"
-title: Running A Tech Conference
+title: Running React Rally
 description: ""
 published: true
 ---
