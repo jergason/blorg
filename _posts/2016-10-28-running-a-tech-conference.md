@@ -106,7 +106,7 @@ you know you are totally wrong about everything you just said?"
 
 Part of our **Treat Speakers Well** mantra is making sure they feel
 respected. Letting them choose how they interact with the
-attendees instead of being forced in to a potentially nerve-wracking live
+attendees instead of being forced into a potentially nerve-wracking live
 defense of their ideas up on stage in front of the whole audience fits in with
 that.
 
@@ -135,12 +135,11 @@ people you meet at the conference. We didn't want people to have to choose
 between the talks and speakers we are so excited about, and talking to old
 and new friends. That is why we put so much emphasis on break time.
 
-We used food trucks for breakfast, which means people are hanging out in
-line waiting for their food, chatting. We used a food truck for coffee,
-which has the same effect. Instead of catering lunch, we gave each
-attendee a gift card and two hours and sent them to local restaurants. We
-wanted attendees go out for lunch with a group of people and chat over food of
-their choice.
+We used food trucks for breakfast, which means people are hanging out in line
+waiting for their food, chatting. We used a food truck for coffee, which has the
+same effect. Instead of catering lunch, we gave each attendee a gift card and
+two hours and sent them to local restaurants. We wanted attendees to go out for
+lunch with a group of people and chat over food of their choice.
 
 
 ![Food trucks](/images/react-rally-2016/food-truck.jpg "food truck")
@@ -211,7 +210,7 @@ $4,551.15.
 This isn't really a specific thing we did, but more of an overarching
 philosophy. I'd like people to describe React Rally as "chill". That comes out
 through the conference size (we had about 420 attendees, and that feels like
-a chill number), the activities (food trucks, a party in a part with lawn games
+a chill number), the activities (food trucks, a party in a park with lawn games
 and some live acoustic guitar, another party playing board games and drinking
 milk shakes), bringing my daughter on stage, having music playing during breaks,
 and a bunch of other little things. Life is stressful. Conferences should be
