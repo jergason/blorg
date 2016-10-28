@@ -178,7 +178,7 @@ attendees can end up watching a completely different
 conference than their peers. No one goes to the same subset of
 talks. Multitrack conferences also produce <span style="cursor:help;"
 title="fear of missing out">FOMO</span> -; what if the talk you're watching isn't
-the absolute best talk in this slot? Though no fault of the speaker I have tuned out or even ducked
+the absolute best talk in this slot? Through no fault of the speaker I have tuned out or even ducked
 out of talks part way through instead of giving the talk my full attention.
 I get way more out of talks when I pay attention to them, and single track
 conferences help me pay attention.
@@ -213,7 +213,12 @@ philosophy. I'd like people to describe React Rally as "chill". That comes out
 through the conference size (we had about 420 attendees, and that feels like
 a chill number), the activities (food trucks, a party in a part with lawn games
 and some live acoustic guitar, another party playing board games and drinking
-milk shakes), 
+milk shakes), bringing my daughter on stage, having music playing during breaks,
+and a bunch of other little things. Life is stressful. Conferences should be
+chill.
+
+![daughter on stage](/images/react-rally-2016/annabelle.jpg "Annabelle in
+a squid costume on stage")
 
 ## We Still Made Mistakes
 
@@ -224,9 +229,8 @@ wanted (which goes against **Treat Speakers Well**, so it hurts even more). Matt
 had to perform some behind-the-scenes heroics to prevent it from being worse
 than it was. He is amazing, but the A/V was not.
 
-* The lines for the food trucks were too long in the morning, We had to
-push back the start time of the conference to make sure everyone got a chance to
-eat.
+* The lines for the breakfast food trucks were too long. We had to push back the
+start time of the conference to make sure everyone got a chance to eat.
 
 * We didn't advertise the ability to donate your swag or just donate directly to
 GDI enough, so many people didn't know they had that option.
