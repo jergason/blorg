@@ -188,7 +188,7 @@ it together. All the attendees see the same talks, which means they can chat
 about the same talks in the hallway track. Speakers don't have to worry about
 competing with other speakers for an audience. Attendees see talks they might
 not have chosen themselves. Sometimes the things you don't know you are
-interested are the most interesting.
+interested in are the most interesting.
 
 
 ## Do Good
