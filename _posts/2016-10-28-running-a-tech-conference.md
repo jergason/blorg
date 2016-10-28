@@ -139,7 +139,7 @@ We used food trucks for breakfast, which means people are hanging out in
 line waiting for their food, chatting. We used a food truck for coffee,
 which has the same effect. Instead of catering lunch, we gave each
 attendee a gift card and two hours and sent them to local restaurants. We
-wanted attendees go out for lunch a group of people and chat over food of
+wanted attendees go out for lunch with a group of people and chat over food of
 their choice.
 
 
@@ -166,7 +166,7 @@ Rally and Egghead.io logos")
 
 At React Rally we want the breaks to have some kind of activity that will
 break the ice with people and make it easier for them to start talking,
-even if it just "Wow, check out how cool that chalk drawing is!"
+even if it is just "Wow, check out how cool that chalk drawing is!"
 
 ## Single Track
 
