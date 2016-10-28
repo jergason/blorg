@@ -45,7 +45,7 @@ cost.
     pool to people who are selling things (product or consulting pitches),
     wealthy, or work for large established tech companies with travel budgets.
     These are all fine groups, but they aren't the only people with interesting
-    things to say. If your budget can't cover for speaker travel, you should
+    things to say. If your budget can't cover speaker travel, you should
     consider whether you have priced your conference effectively. International
     conferences in particular should plan early for speaker travel, since costs
     can be higher.
@@ -79,7 +79,7 @@ them. Paying speakers is an attempt to cover all the other miscellaneous
 costs and also pay them something for their time.
 
     It wasn't a huge amount (only $200), but the principle of paying
-    people for their labor important to us. We plan on increasing the
+    people for their labor is important to us. We plan on increasing the
     amount we give to speakers next year.
 
 * Make speakers comfortable. We gave speakers their
