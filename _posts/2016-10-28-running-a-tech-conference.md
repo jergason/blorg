@@ -141,6 +141,11 @@ same effect. Instead of catering lunch, we gave each attendee a gift card and
 two hours and sent them to local restaurants. We wanted attendees to go out for
 lunch with a group of people and chat over food of their choice.
 
+We also organized dinner groups the first night of the conference. Attendees
+could sign up for a style of food and be sent to a restaurant along with
+everyone else who wanted that kind of food. It was another opportunity to meet
+people and interact in a structured way that didn't depend on someone boldly
+walking up to strangers and introducing themself.
 
 ![Food trucks](/images/react-rally-2016/food-truck.jpg "food truck")
 
@@ -172,15 +177,14 @@ even if it is just "Wow, check out how cool that chalk drawing is!"
 React Rally is unabashedly a single track conference. This is a deliberate
 choice that we feel is better for the attendees and speakers.
 
-At a multitrack conference
-attendees can end up watching a completely different
-conference than their peers. No one goes to the same subset of
-talks. Multitrack conferences also produce <span style="cursor:help;"
-title="fear of missing out">FOMO</span> -; what if the talk you're watching isn't
-the absolute best talk in this slot? Through no fault of the speaker I have tuned out or even ducked
-out of talks part way through instead of giving the talk my full attention.
-I get way more out of talks when I pay attention to them, and single track
-conferences help me pay attention.
+At a multitrack conference attendees can end up watching a completely different
+conference than their peers. No one goes to the same subset of talks. Multitrack
+conferences also produce <span style="cursor:help;" title="fear of missing
+out">FOMO</span> - what if the talk you're watching isn't the absolute best
+talk in this time slot? Through no fault of the speaker I have tuned out or even
+ducked out of talks part way through instead of giving the talk my full
+attention. I get way more out of talks when I pay attention to them, and single
+track conferences help me pay attention.
 
 Single track conferences create shared experiences. The entire conference is in
 it together. All the attendees see the same talks, which means they can chat
@@ -189,6 +193,9 @@ competing with other speakers for an audience. Attendees see talks they might
 not have chosen themselves. Sometimes the things you don't know you are
 interested in are the most interesting.
 
+Multitrack conferences have great things about them (JSConf, StrangeLoop and
+many more fantastic conferences are multitrack), but for React Rally single
+track fits the kind of feeling we are trying to create.
 
 ## Do Good
 
@@ -258,9 +265,9 @@ behind-the-scenes work to make a conference run smoothly. [Leah
 Silber](https://twitter.com/wifelette) wrote a great book called [Event
 Driven](https://leanpub.com/eventdriven)
 that set a standard for responsible and organized event planning that I'm
-still trying to live up to. Matt and I were inspired by too many conferences and
-people to list, but the idea of break time and downtime as a focus I believe
-came from [JSConf](http://jsconf.com/).
+still trying to live up to. The idea of break time and downtime as a focus I believe
+came from [JSConf](http://jsconf.com/). I first saw dinner groups at [Web
+Rebels](https://www.webrebels.org/).
 
 There are too many people who have helped in other ways for my brain to ever
 keep track of. The main point is that we have been inspired by many, helped
