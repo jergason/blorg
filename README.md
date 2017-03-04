@@ -19,3 +19,4 @@ Blog posts go in the `_posts` directory. They should be titled
 posts.
 
 Use `comments: true` in the YAML header to enable Disqus comments.
+
