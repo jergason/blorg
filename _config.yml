@@ -23,6 +23,9 @@ owner:
   disqus: jergason
   # Plug in your disqus shortname!
 
+sass:
+  style: compressed
+
 
 # Links to include in top navigation
 # For external links add external: true
