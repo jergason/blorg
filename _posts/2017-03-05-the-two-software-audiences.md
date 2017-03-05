@@ -13,7 +13,7 @@ That doesn't mean the **how** is unimportant. Technical things affect reliabilit
 
 Software that is all about the developer tends to die under a pile of reinvented wheels as devs build a cloud orchestration platform on top of Docker just to deploy a CRUD app or iterate endlessly on the perfect component library. Software that focuses on the user and completely ignores the developer sometimes lives, but it is a crummy sort of existence where everyone who works on it begrudges it. Development is a slog, responding to changing requirements is impossible, and morale is low. As in most things, the right approach is somewhere in the middle.
 
-It seems like a better problem to be too far on the user end of the pendulum than the developer end. You can build a successful business with software that users love but developers hate, but you can't really do it the other way around. With enough money from happy users you can improve the technical story.
+If you have to favor one over the other, it seems better to swing to on the user end of the pendulum. You can build a successful business with software that users love but developers hate, but you can't really do it the other way around. With enough money from happy users you can improve the technical story.
 
 Keep your eyes peeled for things that help both audiences. Those are free wins. If you can pick a tech that makes writing good software easier, and also is ridiculously fast, you can make both developers and users happy. <aside>Identifying free wins is the subject of <del>another post</del> a lifetime.</aside>
 
