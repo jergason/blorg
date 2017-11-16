@@ -6,7 +6,7 @@ url: //jamison.dance
 
 authors:
   jamison:
-    bio: "Jamison Dance enjoys kittens, making computers smarter and the magic of children's laughter. He tweets at <a href='http://twitter.com/jergason'>@jergason</a> and GitHubs as <a href='https://github.com/jergason'>jergason</a>. He also podcasts on <a href='http://javascriptjabber.com'>JavaScript Jabber</a> and <a href='https://softskills.audio'>Soft Skills Engineering</a>."
+    bio: "Family and JavaScript programming and <a href=\"https://reactrally.com\">React Rally</a> and <a href=\"https://softskills.audio\">Soft Skills Engineering</a> and <a href=\"https://jsjabber.com\">JavaScript Jabber</a> and 🏋️ and 🏂 and computing and business and <a href=\"https://fivestack.computer\">Fivestack</a> and the Dunning-Kreuger effect."
     display_name: Jamison Dance
     gravatar: 6b3da28d67c0c30048665399688f0fdc
     email: hi@jamison.dance
@@ -38,9 +38,9 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Denver
-future:      true
-pygments:    true
+timezone: America/Denver
+future: true
+highlighter: pygments
 markdown:    redcarpet
 
 permalink: /:month-:day-:year/:title
