@@ -1,10 +1,10 @@
 ---
 author: jamison
-layout: post-light-feature
+layout: post
 image:
         feature: "react-rally-2017-chalk.jpg"
 title: Tech Conference Speaker Q & A
-description: ""
+description: "Why it might not be such a good idea."
 ---
 
 A few months ago there was some chatter on Twitter about Q & A after tech conference talks. The original (well-intentioned) tweets were deleted, but my recollection of them was basically "speakers owe it to attendees to do Q & A. Refusing to do Q & A disrespects the audience."
