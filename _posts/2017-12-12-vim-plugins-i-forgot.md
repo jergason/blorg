@@ -10,7 +10,7 @@ I use vim (a hush falls over the crowd). The main purpose of vim is to make peop
 
 
 ## [youcompleteme](https://github.com/Valloric/YouCompleteMe)
-This plugin's job is to crash python every time I start vim. This used to be my job but this plugin is more efficient at it than I am. Sometimes when it doesn't crash vim it does a pretty nice job at smart autocompletion.
+This plugin's job is to crash python every time I start vim. This used to be my job but this plugin is more efficient at it than I am. Sometimes when it doesn't crash python it does a pretty nice job at smart autocompletion.
 
 ## [vim-easymotion](https://github.com/easymotion/vim-easymotion)
 
