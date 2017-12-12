@@ -24,7 +24,7 @@ With vim motions you have to count a lot, and counting higher than three slows m
 
 ![demo of easymotion plugin][easymotion]
 
-Some of you haved ignore what is happening in this gif and are getting ready to ask ask what font that is and also what editor I'm using. I have accepted this as the cost of showing pictures of code on the internet. The editor is emacs and the font is Times New Roman.
+Some of you have ignored what is happening in this gif and are getting ready to ask ask what font that is and also what editor I'm using. I have accepted this as the cost of showing pictures of code on the internet. The editor is emacs and the font is Times New Roman.
 
 I hope to someday be the kind of person for whom this plugin makes a difference. I have spent 20 minutes reading about it and it takes me a few seconds every time I use it to remember how it works which means so far it has saved me negative 25 minutes.
 
