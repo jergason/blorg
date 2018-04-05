@@ -6,7 +6,7 @@ description: ""
 published: true
 ---
 
-I use vim (a hush falls over the crowd). The main purpose of vim is to make people watching me code think I'm smart. Sometimes I forget which plugins I have installed, which people think I am less smart. In an attempt to remember what plugins I have installed and impress more people, here are some plugins I have installed but sometimes forget about.
+I use vim (a hush falls over the crowd). The main purpose of vim is to make people watching me code think I'm smart. Sometimes I forget which plugins I have installed, which makes people think I am less smart. In an attempt to remember what plugins I have installed and impress more people, here are some plugins I have installed but sometimes forget about.
 
 
 ## [youcompleteme](https://github.com/Valloric/YouCompleteMe)
