@@ -7,8 +7,9 @@ image:
   feature: soft-trees.jpg
 ---
 
-I'm a software consultant running [Fivestack](https://fivestack.computer), a boutique consultancy making software for humans.
+I'm an engineering manager at Walmart Labs leading a distributed team in building delightful APIs and UIs that configure Walmart's performance systems (CDNs, HTTP proxies, and load balancers).
 
-I like family and JavaScript programming and <a href=\"https://reactrally.com\">React Rally</a> and <a href=\"https://softskills.audio\">Soft Skills Engineering</a> and <a href=\"https://jsjabber.com\">JavaScript Jabber</a> and 🏋️ and 🏂 and computing and business and <a href=\"https://fivestack.computer\">Fivestack</a> and the Dunning-Kreuger effect.
+I like family and programming and [React Rally](https://reactrally.com) and [Soft Skills Engineering](https://softskills.audio) and 🏋️ and 🏂 and computing and business the Dunning-Kreuger effect.
+I used to be on [JavaScript Jabber](https://jsjabber.com).
 
 I tweet at [@jergason](https://twitter.com/jergason), and GitHub at [jergason](https://github.com/jergason).

@@ -6,7 +6,7 @@ url: //jamison.dance
 
 authors:
   jamison:
-    bio: "Jamison cares about family and JavaScript programming and <a href=\"https://reactrally.com\">React Rally</a> and <a href=\"https://softskills.audio\">Soft Skills Engineering</a> and <a href=\"https://jsjabber.com\">JavaScript Jabber</a> and 🏋️ and 🏂 and computing and business and <a href=\"https://fivestack.computer\">Fivestack</a> and the Dunning-Kreuger effect. He is a real human bean who you can reach on <a href=\"https://twitter.com/jergason\">twitter</a>."
+    bio: "Jamison cares about family and programming and <a href=\"https://reactrally.com\">React Rally</a> and <a href=\"https://softskills.audio\">Soft Skills Engineering</a> and 🏋️ and 🏂 and computing and business and <a href=\"https://fivestack.computer\">Fivestack</a> and the Dunning-Kreuger effect. He is a real human bean who you can reach on <a href=\"https://twitter.com/jergason\">twitter</a>."
     display_name: Jamison Dance
     gravatar: 6b3da28d67c0c30048665399688f0fdc
     email: hi@jamison.dance
@@ -40,7 +40,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/Denver
 future: true
-highlighter: rouge
+highlighter: pygments
 markdown:    redcarpet
 
 permalink: /:month-:day-:year/:title
