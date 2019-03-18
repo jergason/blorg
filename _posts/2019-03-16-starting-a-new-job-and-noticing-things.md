@@ -23,4 +23,6 @@ As a new team member, you have the power to notice weird or broken things that l
 
 This super-power declines in me over time as I acclimate to my environment. Weird things become routine, pain repeatedly felt generates scar tissue, and I stop noticing broken things. That is one benefit to bringing in new team members - it gives you a chance to notice things through their eyes.
 
-The power to notice things is different from the power to fix things. Fixing long-standing annoyances that have become routine is rarely controversial, but cultural problems are much harder to change. You notice things by being new, but you fix things, especially hard cultural things, by being a trusted team member. Still, noticing is the first step to fixing. If you start a new job, use that superpower. If a new team-member joins your team, explicitly tell them you want to know what they notice. Make them feel safe in reporting weird things they see. Your whole team will benefit.
+The power to notice things is different from the power to fix things. Fixing long-standing annoyances that have become routine is rarely controversial, but cultural problems are much harder to change. You notice things by being new, but you fix things, especially hard cultural things, by being a trusted team member. Still, noticing is the first step to fixing.
+
+If you start a new job, use that superpower. If a new team-member joins your team, explicitly tell them you want to know what they notice. Make them feel safe in reporting weird things they see. Your whole team will benefit.
