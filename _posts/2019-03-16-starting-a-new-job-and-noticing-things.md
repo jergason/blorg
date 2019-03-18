@@ -25,4 +25,4 @@ This super-power declines in me over time as I acclimate to my environment. Weir
 
 The power to notice things is different from the power to fix things. Fixing long-standing annoyances that have become routine is rarely controversial, but cultural problems are much harder to change. You notice things by being new, but you fix things, especially hard cultural things, by being a trusted team member. Still, noticing is the first step to fixing.
 
-If you start a new job, use that superpower. If a new team-member joins your team, explicitly tell them you want to know what they notice. Make them feel safe in reporting weird things they see. Your whole team will benefit.
+If you're starting a new job, use your superpower. Point out weird things you see. Expect them to get better. If a new team-member joins your team, use their superpower. Explicitly tell them you want to know what they notice. Make it safe to report weird things they see. Fix them. Your whole team will benefit.
