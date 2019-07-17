@@ -81,4 +81,4 @@ Behold the final result:
 <a class="jsbin-embed" href="http://emberjs.jsbin.com/zetereka/4/embed?output">Ember Starter Kit</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 If you make it draw cooler things than stars, like dinosaurs or laser beams or
-laser dinosaurs, please let me know [@jergason](https://twitter.com/jergason).
+laser dinosaurs, please let me know [@jamison_dance](https://twitter.com/jamison_dance).

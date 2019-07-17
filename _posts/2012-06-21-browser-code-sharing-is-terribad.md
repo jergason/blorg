@@ -53,7 +53,7 @@ Some people use GitHub as their own personal CDN, which is sketchy at best.
 Linking to a GitHub repo has all of the same drawback as linking to
 `code.jquery.com`, but will also get you rate-limited.
 
-<blockquote class="twitter-tweet" data-in-reply-to="215962283627642880"><p>@<a href="https://twitter.com/jergason">jergason</a> we’re not a CDN (and you’ll see a perf hit in doing so). We rate limit you on those blob accesses, too.</p>&mdash; Zach Holman (@holman) <a href="https://twitter.com/holman/status/216150775620046849" data-datetime="2012-06-22T12:48:55+00:00">June 22, 2012</a></blockquote>
+<blockquote class="twitter-tweet" data-in-reply-to="215962283627642880"><p>@<a href="https://twitter.com/jamison_dance">jergason</a> we’re not a CDN (and you’ll see a perf hit in doing so). We rate limit you on those blob accesses, too.</p>&mdash; Zach Holman (@holman) <a href="https://twitter.com/holman/status/216150775620046849" data-datetime="2012-06-22T12:48:55+00:00">June 22, 2012</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Dependencies are bad. Dependencies that depend on third-party services to
@@ -116,5 +116,5 @@ idea of easily reusable client-side code.
 
 
 How do you feel about client-side code sharing? Do you know of any better
-solutions? Tell me on Twitter at [@jergason](http://twitter.com/jergason) or
+solutions? Tell me on Twitter at [@jamison_dance](http://twitter.com/jamison_dance) or
 in the comments.
