@@ -6,9 +6,6 @@ description: ""
 published: true
 ---
 
-
-# Deconstruct Conf 2019
-
 I just got back from [Deconstruct Conf](http://deconstructconf.com). It was fantastic! Deconstruct is a generalist software conference that focuses on fantastic speakers giving wonderful talks. I've also heard it described as TED talks for developers, or "that [Gary Bernhardt](https://twitter.com/garybernhardt)" conference. It features wonderful speakers with both new and established voices, unlimited scholarships for under-represented folks or students, a gorgeous venue, no sponsorships, no swag, and a minimalist and bare-bones aesthetic. I could write a whole post on what I love about it as a conference organizer, but this one will focus on my experience as an attendee. I'll try to summarize a few moments and themes I really enjoyed.
 
 ### Games!
@@ -55,6 +52,6 @@ This was also a great talk about accessibility, despite not being explicitly abo
 
 ### Research and History
 
- One of my favorite things about Deconstruct is how much value the talks place on history and the past. Computing has a long and rich history of great ideas and valuable experience. That often gets lost in the rush towards the new hotness of the day. Several of the talks focused on or featured research - [Hillel Wayne](https://twitter.com/hillelogram) talked about his journey through primary sources to try to answer the question "Why do we ask people to reverse linked lists in interviews?". [Erica Gomez](https://twitter.com/ericalgomez)'s talk (more later) dove deeply in to aviation, regulation, and software history. Dan's talk featured both academic research on filesystems and disks, and his own personal research verifying results. [Kyle Kingsbury](https://twitter.com/aphyr/) shared new findings from Jepsen, his project on verifying correctness in distributed systems.
+ One of my favorite things about Deconstruct is how much value the talks place on history and the past. Computing has a long and rich history of great ideas and valuable experience. That often gets lost in the rush towards the new hotness of the day. Several of the talks focused on or featured research - [Hillel Wayne](https://twitter.com/hillelogram) talked about his journey through primary sources to try to answer the question "Why do we ask people to reverse linked lists in interviews?". [Erica Gomez](https://twitter.com/ericalgomez)'s talk dove deeply in to aviation, regulation, and software history. Dan's talk featured both academic research on filesystems and disks, and his own personal research verifying results. [Kyle Kingsbury](https://twitter.com/aphyr/) shared new findings from Jepsen, his project on verifying correctness in distributed systems. [Dan Abramov](https://twitter.com/dan_abramov)'s talk was partially about the history of best practices, and examining the consequences of emphasizing Don't Repeat Yourself without looking at the damage it might cause.
 
-Deconstruct is one of my favorite conferences and this year lived up to my expectations. It featured kind people, a relaxed atmosphere and thought-provoking talks. I'll be back for sure.
+Deconstruct is one of my favorite conferences and this year lived up to my expectations. It featured kind people, a relaxed atmosphere and thought-provoking talks. I'm excited to go back.
