@@ -2,7 +2,7 @@
 
 author: jamison
 layout: post-no-feature
-title: Diveristy In Technology
+title: Diversity In Technology
 date: '2012-03-07'
 categories: rants
 tags: [diversity, technology]
