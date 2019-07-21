@@ -6,11 +6,11 @@ description: ""
 published: true
 ---
 
-I just got back from [Deconstruct Conf](http://deconstructconf.com). It was fantastic! Deconstruct is a generalist software conference that focuses on fantastic speakers giving wonderful talks. I've also heard it described as TED talks for developers, or "that [Gary Bernhardt](https://twitter.com/garybernhardt)" conference. It features wonderful speakers with both new and established voices, unlimited scholarships for under-represented folks or students, a gorgeous venue, no sponsorships, no swag, and a minimalist and bare-bones aesthetic. I could write a whole post on what I love about it as a conference organizer, but this one will focus on my experience as an attendee. I'll try to summarize a few moments and themes I really enjoyed.
+I just got back from [Deconstruct Conf](http://deconstructconf.com). It was great! Deconstruct is a generalist software conference that focuses on fantastic speakers giving wonderful talks. I've also heard it described as TED talks for developers, or "that [Gary Bernhardt](https://twitter.com/garybernhardt) conference”. It features wonderful speakers with both new and established voices, unlimited scholarships for under-represented folks or students, a gorgeous venue, no sponsorships, no swag, and a minimalist and bare-bones aesthetic. I could write a whole post on what I love about it as a conference organizer, but this one will focus on my experience as an attendee. I'll try to summarize a few moments and themes I really enjoyed.
 
 ### Games!
 
-[Ayla Myers](https://mobile.twitter.com/bridgs_dev) talked about her adventures in multiplayer game development, and the repeated struggles she had while trying to make it work. The content of the talk was great - the woes of trusting the client, dealing with lag and the struggles with client-side prediction. I've played games for quite a while but never really understood the reasons for strange behavior in laggy network conditions. She hand-made pixel art for her slides, which were gorgeous and full of character. I especially love the penguin jumping animation:
+[Ayla Myers](https://mobile.twitter.com/bridgs_dev) talked about her adventures in multiplayer game development and the repeated struggles she had while trying to make it work. The content of the talk was great - the woes of trusting the client, dealing with lag and the struggles with client-side prediction. I've played games for quite a while but never really understood the reasons for strange behavior in laggy network conditions. She hand-made pixel art for her slides, which were gorgeous and full of character. I especially love the penguin jumping animation:
 
 ![four frames of a penguin jumping](/images/deconstruct-2019/ayla.jpg)
 
