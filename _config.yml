@@ -33,6 +33,9 @@ links:
   - title: About Me
     url: /about
     external: false
+  - title: Talks
+    url: /talks
+    external: false
   - title: GitHub
     url: https://github.com/jergason
     external: true
