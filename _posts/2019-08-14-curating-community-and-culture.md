@@ -10,13 +10,13 @@ I co-host a podcast, [Soft Skills Engineering](https://softskills.audio/), with 
 
 ## Deliberate Culture 
 
-Whenever there is a group, there is a culture. Like water flowing in to a hole dug in the sand on the beach, community will assume the shape of its culture. Deliberate thought gives you a chance to shape the hole. Internet culture that evolves organically tends towards caustic chaos (think about what an average Facebook wall or Twitter feed or 4chan thread looks like).
+Whenever there is a group, there is a culture. Culture can be organic and evolved or deliberately created and curated. Like gas expanding in a vacuum takes the shape of its container, community will assume the shape of its culture. Deliberate thought gives you a chance to shape the container. Internet culture that evolves organically tends towards caustic chaos (think about what an average Facebook wall or Twitter feed or 4chan thread looks like).
 
 ## Group Size
 
 **🚨ALERT🚨**: wild speculation on group dynamics, anthropology, sociology, etc, none of which I am an expert on.
 
-[Dunbar's number](https://en.m.wikipedia.org/wiki/Dunbar%27s_number) hypothesizes that "humans can comfortably maintain 150 stable relationships." If true, this puts a rough upper bound on the size of communities that rely purely on relationships and convention. Beyond ~150 we might not be able to to keep models in our heads of other people or know much about them that persists beyond direct interactions. This might be why large loosely-structured communities so often devolve. As the community grows, the proportion of the community that you don't have a relationship with but still communicate grows, making it easier to misunderstand, attack, sterotype, etc. The [Eternal September](https://en.m.wikipedia.org/wiki/Eternal_September) is an early internet example of this, but I suspect that as long as humans have formed groups there have been original members decrying the loss of the original culture as the group scales beyond relationship-size.
+[Dunbar's number](https://en.m.wikipedia.org/wiki/Dunbar%27s_number) hypothesizes that "humans can comfortably maintain 150 stable relationships." If true, this puts a rough upper bound on the size of communities that rely purely on relationships and convention. Beyond ~150 we might not be able to to keep models in our heads of other people or know much about them that persists beyond direct interactions. This might be why large loosely-structured communities so often devolve. As the community grows, the proportion of the community that you don't have a relationship with but still communicate grows, making it easier to misunderstand, attack, stereotype, etc. The [Eternal September](https://en.m.wikipedia.org/wiki/Eternal_September) is an early internet example of this, but I suspect that as long as humans have formed groups there have been original members decrying the loss of the original culture as the group scales beyond relationship-size.
 
 ## Deliberate Thought
 
@@ -32,7 +32,7 @@ I made [https://softskills.audio/slack](https://softskills.audio/slack) with som
 
 ## Action
 
-After thinking and writing things down, act to make it stick. Curated culture requires deliberate action to encourage or discourage certain behaviors and establish structure for interactions.
+After thinking and writing things down, act to make it stick. Curated culture requires deliberate action to encourage or discourage certain behaviors and establish structure for interactions. Sometimes curation means clarifying rejecting behavior that doesn't fit the culture.
 
 Within the first few weeks of setting up the chat room there was a relatively minor disagreement. It got a bit heated. I was torn between talking it out privately or addressing it in the main channel where it happened. Publicly call-outs are less comfortable and potentially embarrass the recipient. Eventually I decided re-enforcing expectations publicly was important enough to kindly address what happened. I replied with the following message in the thread:
 
