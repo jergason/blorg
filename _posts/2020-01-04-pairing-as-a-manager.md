@@ -2,7 +2,7 @@
 author: jamison
 layout: post-no-feature
 title: Pairing As A Manager
-description: "The best interface is the smallest possible one."
+description: ""
 published: true
 ---
 
