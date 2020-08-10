@@ -2,7 +2,7 @@
 author: jamison
 layout: post-no-feature
 title: How To Annoy Everyone You Admire With Go
-description: ""
+description: "Use the Twitter API and Go to something something blockchain"
 published: true
 ---
 

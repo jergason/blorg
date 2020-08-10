@@ -1,18 +1,17 @@
 title: Interpreted Dance
 tagline: gettup get down
-description: Blog about bear stuffs
+description: Personal blog of Jamison Dance on tech things and dumb things.
 #Comment out url when working locally to resolve base urls correctly
 url: //jamison.dance
 
 authors:
   jamison:
-    bio: "Jamison cares about family and programming and <a href=\"https://reactrally.com\">React Rally</a> and <a href=\"https://softskills.audio\">Soft Skills Engineering</a> and 🏋️ and 🏂 and computing and business and the Dunning-Kreuger effect. He is a real human bean who you can reach on <a href=\"https://twitter.com/jamison_dance\">Twitter</a>."
+    bio: 'Jamison cares about family and programming and <a href="https://reactrally.com">React Rally</a> and <a href="https://softskills.audio">Soft Skills Engineering</a> and 🏋️ and 🏂 and computing and business and the Dunning-Kreuger effect. He is a real human bean who you can reach on <a href="https://twitter.com/jamison_dance">Twitter</a>.'
     display_name: Jamison Dance
     gravatar: 6b3da28d67c0c30048665399688f0fdc
     email: hi@jamison.dance
     twitter: jamison_dance
     github: jergason
-
 
 # Owner/author information
 owner:
@@ -25,7 +24,6 @@ owner:
 
 sass:
   style: compressed
-
 
 # Links to include in top navigation
 # For external links add external: true
@@ -48,4 +46,14 @@ highlighter: rouge
 permalink: /:month-:day-:year/:title
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+  ]
