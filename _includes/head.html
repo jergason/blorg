@@ -42,11 +42,11 @@
   <meta name="twitter:description" content="{{ page.description }}" />
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}" />
-  {% endif %} {% if page.image %}
+  {% endif %} {% if page.image_url %}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image_url }}" />
   {% else if site.title_image %}
-  <meta name="twitter:image" content="{{ site.title_image }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}" />
   <meta name="twitter:card" content="summary" />
   {% else %}
   <meta name="twitter:card" content="summary" />

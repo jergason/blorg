@@ -3,6 +3,7 @@ tagline: gettup get down
 description: Personal blog of Jamison Dance on tech things and dumb things.
 #Comment out url when working locally to resolve base urls correctly
 url: //jamison.dance
+title_image: /images/headshot.jpg
 
 authors:
   jamison:
