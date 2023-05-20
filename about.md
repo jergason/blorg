@@ -3,8 +3,6 @@ layout: post
 permalink: /about/index.html
 title: About Me
 description:
-image:
-  feature: soft-trees.jpg
 ---
 
 I'm an engineering leader. I've worked at startups and giant megacorps on scalable infrastructure and user-facing products. I love supporting people and building teams and systems that help software engineers do their best work.
