@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: 'EmberCamp 2013 Recap'
 date: '2013-02-16'
 description: A recap of EmberCamp 2013, the first conference for Ember.js.

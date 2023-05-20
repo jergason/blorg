@@ -1,6 +1,6 @@
 ---
 
-layout: post-no-feature
+layout: post
 title: On Being A Polyglot Engineering Team
 author: jamison
 published: false

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: The Value Of Being Itchy
 date: '2012-03-01'

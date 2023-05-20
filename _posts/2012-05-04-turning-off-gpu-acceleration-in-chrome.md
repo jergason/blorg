@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Turning Off GPU Acceleration In Google Chrome
 date: '2012-05-04'

@@ -1,60 +1,36 @@
+############# Site Config
 title: Interpreted Dance
 tagline: gettup get down
-description: Personal blog of Jamison Dance on tech things and dumb things.
+email: hi@jamison.dance
+owner_name: Jamison Dance
+description: >
+  Jamison Dance's blog. Mostly focused on engineering management,
+  software design and development, and jokes to himself.
 #Comment out url when working locally to resolve base urls correctly
-# url: //jamison.dance
-title_image: /images/headshot.jpg
+url: //jamison.dance
+favicon: "favicon.ico"
+permalink: /:month-:day-:year/:title
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+#############
 
-authors:
-  jamison:
-    bio: 'Jamison cares about family and programming and <a href="https://reactrally.com">React Rally</a> and <a href="https://softskills.audio">Soft Skills Engineering</a> and 🏋️ and 🏂 and computing and business and the Dunning-Kreuger effect. He is a real human bean who you can reach on <a href="https://twitter.com/jamison_dance">Twitter</a>.'
-    display_name: Jamison Dance
-    gravatar: 6b3da28d67c0c30048665399688f0fdc
-    email: hi@jamison.dance
-    twitter: jamison_dance
-    github: jergason
-
-# Owner/author information
-owner:
-  name: Jamison Dance
-  email: hi@jamison.dance
-  twitter: jamison_dance
-  github: jergason
-  disqus: jergason
-  # Plug in your disqus shortname!
-
+###########
+#Tech Setup
+###########
+markdown: kramdown
 sass:
   style: compressed
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About Me
-    url: /about
-    external: false
-  - title: Talks
-    url: /talks
-    external: false
-  - title: GitHub
-    url: https://github.com/jergason
-    external: true
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/Denver
-future: true
+future: false
+
 highlighter: rouge
 
-permalink: /:month-:day-:year/:title
-
-include: [".htaccess"]
-exclude:
-  [
-    "lib",
-    "config.rb",
-    "Capfile",
-    "config",
-    "log",
-    "Rakefile",
-    "Rakefile.rb",
-    "tmp",
-  ]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+# exclude:

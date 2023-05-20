@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Protocols and Etiquette
 description: "What is a protocol? A protocol is a definition for how things communicate. Think of it like an etiquette."
 published: true

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Running Local JavaScript Files In Chrome
 date: '2011-11-15'
 tags: [javascript]

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Mocking Dependencies For Unit Testing With require.js
 date: '2012-07-27'
 description: How to mock dependencies to unit-test AMD modules written for require.js.

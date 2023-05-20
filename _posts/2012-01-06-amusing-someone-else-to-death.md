@@ -3,7 +3,7 @@ title: Amusing Someone Else To Death
 tags: [postman, culture]
 date: '2012-01-16'
 permalink: post/15991435407/amusing-someone-else-to-death
-layout: post-no-feature
+layout: post
 author: jamison
 category: rants
 ---

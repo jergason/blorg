@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 author: jamison
 title: Mistakes I Have Made With Node Web Apps
 description: "I have done things. Things I'm not proud of. Learn from my mistakes."

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Kneser-Ney Smoothing And You
 date: '2012-08-22'
 description: Kneser-Ney Smoothing is a technique in natural language processing to obtain better approximation of the probability of a sentence being correct.

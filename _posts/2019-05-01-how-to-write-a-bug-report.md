@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: How To Write A Bug Report
 description: "A bug report has three main parts: what you expected to see, what you saw and steps to reproduce."
 published: true

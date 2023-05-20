@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: The Clojure Threading Macro
 description: "What on earth does -> mean and also why doesn't it use threads"
 categories: coding

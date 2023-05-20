@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Learning Vim, or, You Will Briefly Suck At Computers
 tags: [vim, productivity]
 date: '2011-08-10'

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: "Don't Write For Loops"
 published: true
 description: ""

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Convert a Vim Window to HTML
 date: '2012-04-11'

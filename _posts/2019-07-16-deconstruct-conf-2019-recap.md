@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Deconstruct Conf 2019 Recap
 description: ""
 published: true

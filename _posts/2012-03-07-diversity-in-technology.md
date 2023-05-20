@@ -1,7 +1,7 @@
 ---
 
 author: jamison
-layout: post-no-feature
+layout: post
 title: Diversity In Technology
 date: '2012-03-07'
 categories: rants

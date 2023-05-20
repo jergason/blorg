@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: "Threading Macros In Clojure 2: Electric Boogaloo"
 description: "More on Clojure's threading macros"
 categories: coding

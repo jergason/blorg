@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: An Ember Canvas Component
 description: "How to render data to a canvas element with Ember.js"
 categories: coding

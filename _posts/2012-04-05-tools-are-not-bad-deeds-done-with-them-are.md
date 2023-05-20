@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Tools Are Not Bad, Deeds Done With Them Are
 date: '2012-04-05'

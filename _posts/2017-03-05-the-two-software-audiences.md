@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: The Two Audiences of Software
 published: true
 description: "Software has at least two audiences: the users and the creators."

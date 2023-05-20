@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Testing CofeeScript with Mocha
 date: '2012-05-01'

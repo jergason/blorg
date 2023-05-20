@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Vim Plugins I Forgot I Had Installed
 description: ""
 published: true

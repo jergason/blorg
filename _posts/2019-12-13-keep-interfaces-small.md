@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Keep Interfaces Small
 description: "The best interface is the smallest possible one."
 published: true

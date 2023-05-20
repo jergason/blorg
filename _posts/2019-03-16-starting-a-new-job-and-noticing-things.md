@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Starting A New Job And Noticing Things
 description: "Being new at a job or in a role can give you superpowers."
 published: true

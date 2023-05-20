@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: The Cuckoo's Egg Is About Being Relentlessly Curious
 date: '2012-03-01'

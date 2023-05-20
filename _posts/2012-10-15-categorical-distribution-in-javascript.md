@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: The Categorical Distribution In JavaScript
 date: '2012-10-15'
 description: How to pick between lots of different things

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Learning, Goals and Metacognition
 description: "Learning how to learn"
 categories: rants

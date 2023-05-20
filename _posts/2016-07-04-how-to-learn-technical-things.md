@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: How To Learn Technical Things
 description: ""
 published: true

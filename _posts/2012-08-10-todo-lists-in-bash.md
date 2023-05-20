@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: 'badoop: a simple todo list in bash'
 date: '2012-08-10'
 description: Things? OmniFocus? Chumps. Real programmers use bash to track their todos.

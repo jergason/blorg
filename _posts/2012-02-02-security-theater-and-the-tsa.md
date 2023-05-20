@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Security theater and The TSA
 date: '2012-02-02'
 categories: rants

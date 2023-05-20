@@ -1,7 +1,7 @@
 ---
 
 author: jamison
-layout: post-no-feature
+layout: post
 title: "Developer Six Months In Review: June 2012"
 date: '2012-06-18'
 description: Being a review of what I have done as a developer in the last six months.

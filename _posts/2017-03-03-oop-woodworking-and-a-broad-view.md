@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Object-Oriented Programming, Woodworking and A Broad View
 description: ""
 published: true

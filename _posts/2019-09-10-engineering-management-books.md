@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Engineering Management Books
 description: "Some that I liked, some that I didn't."
 published: true

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Peeling Away Metaphors
 date: '2012-02-09'

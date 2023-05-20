@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Motorcycles and Engineering Teams and Speed
 description: ""
 published: true

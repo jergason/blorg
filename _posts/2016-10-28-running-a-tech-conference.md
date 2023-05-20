@@ -1,12 +1,14 @@
 ---
 author: jamison
-layout: post-light-feature
-image:
-        feature: "react-rally-2016/poster.jpg"
+layout: post
+#image:
+#        feature: "react-rally-2016/poster.jpg"
 title: Running React Rally
 description: ""
 published: true
 ---
+
+![react rally poster](/images/react-rally-2016/poster.jpg)
 
 Together with [Matt Zabriskie](https://twitter.com/mzabriskie), I run [React Rally](http://reactrally.com), a community tech conference in Salt Lake City. It happened at the end of August and I've been reflecting on the experience ever since.
 
@@ -33,37 +35,41 @@ Show speakers you appreciate their efforts, and do everything in your power to
 make their lives easier. Here is a partial list of things we did to treat our
 speakers well. We will do more next year.
 
+### Pay for travel and hotel
 
-* Pay for travel and hotel. To me this is table stakes for running a
+To me this is table stakes for running a
 conference. Speakers spend huge amounts of time preparing, and usually miss
 work to come speak. They are indirectly paying already due to opportunity
 cost.
 
-    This could be an entire blog post by itself, but if you don't pay for
-    speaker travel that means only people who can afford to pay their own way
-    can speak, which limits the size and diversity of your potential speaker
-    pool to people who are selling things (product or consulting pitches),
-    wealthy, or work for large established tech companies with travel budgets.
-    These are all fine groups, but they aren't the only people with interesting
-    things to say. If your budget can't cover speaker travel, you should
-    consider whether you have priced your conference effectively. International
-    conferences in particular should plan early for speaker travel, since costs
-    can be higher.
+This could be an entire blog post by itself, but if you don't pay for
+speaker travel that means only people who can afford to pay their own way
+can speak, which limits the size and diversity of your potential speaker
+pool to people who are selling things (product or consulting pitches),
+wealthy, or work for large established tech companies with travel budgets.
+These are all fine groups, but they aren't the only people with interesting
+things to say. If your budget can't cover speaker travel, you should
+consider whether you have priced your conference effectively. International
+conferences in particular should plan early for speaker travel, since costs
+can be higher.
 
+### Have a nice speaker dinner.
 
-* Have a nice speaker dinner. Our speaker dinner was at [The
- Rest](http://www.nytimes.com/2014/06/15/travel/restaurant-review-the-rest-in-salt-lake-city.html),
+Our speaker dinner was at [The
+Rest](http://www.nytimes.com/2014/06/15/travel/restaurant-review-the-rest-in-salt-lake-city.html),
 a local speakeasy that you get to by going through the secret bathroom
 entrance from inside a fairly normal looking bar. Part of running
 a conference is showing off your city or location. Find somewhere people will
 be excited to go. Every city has cool unique things. Show them off, and let
 your speakers have time to meet each other in a relaxed and chill atmosphere.
 
-    Be sensitive to prep and travel plans. Some speakers may still be working
-    on their talk, and might be too stressed out to go hang out with people.
-    Others might not be able to come early enough for the dinner.
+Be sensitive to prep and travel plans. Some speakers may still be working
+on their talk, and might be too stressed out to go hang out with people.
+Others might not be able to come early enough for the dinner.
 
-* Give speakers a personalized gift. We went with some moleskine journals with
+### Give speakers a personalized gift.
+
+We went with some moleskine journals with
 the speaker's name and a conference logo embossed on the front. I've seen
 lots of amazing speaker gifts on Twitter, and we will keep playing with
 this next year. The specific gift isn't as important as the feeling the
@@ -71,18 +77,22 @@ speaker should get from it: that you care about them individually, and you
 are so glad they came to speak. Hopefully it is something they will
 actually use, so they get that good feeling regularly.
 
-* Pay your speakers. This is the other side of the coin to paying for
+### Pay your speakers.
+
+This is the other side of the coin to paying for
 speaker travel. Speakers make the conference. They help sell tickets, and
-if they give a good talk it reflects well on them *and* the conference.
+if they give a good talk it reflects well on them _and_ the conference.
 Paying for travel covers some of the costs of speaking, but not all of
 them. Paying speakers is an attempt to cover all the other miscellaneous
 costs and also pay them something for their time.
 
-    It wasn't a huge amount (only $200), but the principle of paying
-    people for their labor is important to us. We plan on increasing the
-    amount we give to speakers next year.
+It wasn't a huge amount (only $200), but the principle of paying
+people for their labor is important to us. We plan on increasing the
+amount we give to speakers next year.
 
-* Make speakers comfortable. We gave speakers their
+### Make speakers comfortable.
+
+We gave speakers their
 own intro music in an attempt to make them feel amazing while walking on stage.
 There were some technical hiccups, so this didn't go as smoothly as I had hoped,
 but when [James Kyle](https://twitter.com/thejameskyle) stepped out to his
@@ -92,7 +102,6 @@ it was all worth it.
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146838530&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-
 ## Audience and Speaker Interaction
 
 One theme of React Rally is that the people and the unstructured time
@@ -101,7 +110,7 @@ between talks are just as important as the talks themselves.
 We don't have Q & A after talks. Something about being handed a microphone and
 an audience after someone else gives a talk makes it easy to ask terrible
 questions. If you've been to many tech conferences you've probably seen
-a  question that boils down to "Hey, do you know how smart I am?" or "Hey did
+a question that boils down to "Hey, do you know how smart I am?" or "Hey did
 you know you are totally wrong about everything you just said?"
 
 Part of our **Treat Speakers Well** mantra is making sure they feel
@@ -117,7 +126,7 @@ want to participate, and the attendee gets close interaction with an
 expert in the field. At React Rally 2015 my team at
 [Kuali](https://kuali.co) had a chance to chat directly with
 [Jeff](https://twitter.com/lbljeffmo) of the [Flow](https://flowtype.org/)
-team on some tricky issues we were facing. It was *so* helpful, and we
+team on some tricky issues we were facing. It was _so_ helpful, and we
 didn't have to grill him in front of an audience of hundreds about things
 only we cared about.
 
@@ -127,7 +136,7 @@ I'll say it again. We have TONS of breaks and downtime. We did two hours
 for lunch, and another hour and a half for breaks during the day. We also
 had an hour and a half of breakfast before the conference started. This is
 not because we are lazy (although maybe we are kinda lazy). It is because
-we value unstructured time just as much as structured talk time. 
+we value unstructured time just as much as structured talk time.
 
 The traditional name for this is the hallway track. Usually it means you
 skip talks to hang out in the hallway and talk to all the interesting
@@ -148,7 +157,6 @@ people and interact in a structured way that didn't depend on someone boldly
 walking up to strangers and introducing themself.
 
 ![Food trucks](/images/react-rally-2016/food-truck.jpg "food truck")
-
 
 **SECRET INSIDER CONFERENCE TIP:** Catered food is incredibly
 expensive. It is not uncommon to pay $50 a plate for a basic, passable but
@@ -228,25 +236,23 @@ a squid costume on stage")
 
 ## We Still Made Mistakes
 
-We made *so many* mistakes this year.
+We made _so many_ mistakes this year.
 
-* The A/V was absolutely not at the level we
-wanted (which goes against **Treat Speakers Well**, so it hurts even more). Matt
-had to perform some behind-the-scenes heroics to prevent it from being worse
-than it was. He is amazing, but the A/V was not.
+- The A/V was absolutely not at the level we
+  wanted (which goes against **Treat Speakers Well**, so it hurts even more). Matt
+  had to perform some behind-the-scenes heroics to prevent it from being worse
+  than it was. He is amazing, but the A/V was not.
 
-* The lines for the breakfast food trucks were too long. We had to push back the
-start time of the conference to make sure everyone got a chance to eat.
+- The lines for the breakfast food trucks were too long. We had to push back the
+  start time of the conference to make sure everyone got a chance to eat.
 
-* We didn't advertise the ability to donate your swag or just donate directly to
-GDI enough, so many people didn't know they had that option.
-
+- We didn't advertise the ability to donate your swag or just donate directly to
+  GDI enough, so many people didn't know they had that option.
 
 There are a bunch more things on our list to improve next year, but despite
 these mistakes, I'd still call React Rally 2016 a success. We heard nice things
 from both attendees and speakers. It turns out that people will
 forgive lots of mistakes if they feel like your heart is in the right place.
-
 
 ## Steal Every Good Idea
 
@@ -260,7 +266,7 @@ Moore](https://twitter.com/blowmage)
 asked us to help out with his conference. [Joe
 Eames](https://twitter.com/josepheames) was an invaluable advisor in 2015 and
 put us in contact with Sunny and [Zero Slope
-Events](https://zeroslopeevents.com/), an amazing team  who does so much
+Events](https://zeroslopeevents.com/), an amazing team who does so much
 behind-the-scenes work to make a conference run smoothly. [Leah
 Silber](https://twitter.com/wifelette) wrote a great book called [Event
 Driven](https://leanpub.com/eventdriven)

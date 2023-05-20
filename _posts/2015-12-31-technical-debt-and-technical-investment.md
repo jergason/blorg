@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Technical debt and technical investment
 description: ""
 published: true

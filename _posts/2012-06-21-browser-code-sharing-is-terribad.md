@@ -3,7 +3,7 @@ title: Browser Code Sharing Is Terribad
 date: '2012-06-21'
 description: Sharing code for the browser is terribad.
 tags: [javascript, code-sharing, client]
-layout: post-no-feature
+layout: post
 author: jamison
 
 ---

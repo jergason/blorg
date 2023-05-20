@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: "'I'd be okay with censoring the Internet.'"
 date: '2012-01-19'
 categories: rants

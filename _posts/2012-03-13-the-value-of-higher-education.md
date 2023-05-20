@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: The Value Of Higher Education
 date: '2012-03-13'

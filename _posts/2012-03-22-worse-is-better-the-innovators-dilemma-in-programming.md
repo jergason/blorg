@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: "Worse Is Better: The Innovator's Dilemma In Programming Languages"
 date: '2012-03-22'

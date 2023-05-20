@@ -1,8 +1,8 @@
 ---
 
 author: jamison
-layout: post-no-feature
-layout: post-no-feature
+layout: post
+layout: post
 title: Digital Identity and Ownership
 permalink: post/16525647062/digital-identity-and-ownership
 date: '2012-01-26'

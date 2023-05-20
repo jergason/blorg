@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: You Either Give Back Or You Don't
 date: '2011-08-13'
 permalink: post/8893176575/you-either-give-back-or-you-dont

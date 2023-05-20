@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: How To Screw Something Up
 description: "Screwing up hurts. Fortunately, you can screw up . . . better?"
 published: true

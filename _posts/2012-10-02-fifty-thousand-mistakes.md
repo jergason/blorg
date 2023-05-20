@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Fifty Thousand Mistakes
 date: '2012-10-02'
 description: How do you get good at something? You do it badly for a long time.

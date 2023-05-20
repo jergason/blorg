@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Testing JavaScript with Jasmine
 date: '2011-10-26'

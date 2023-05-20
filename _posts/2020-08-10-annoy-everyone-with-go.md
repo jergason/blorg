@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: How To Annoy Everyone You Admire With Go
 description: "Use the Twitter API and Go to something something blockchain"
 published: true

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Fact-checking Technical Claims 
 description: "Read the sources!"
 published: true

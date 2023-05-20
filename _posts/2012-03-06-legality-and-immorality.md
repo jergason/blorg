@@ -1,7 +1,7 @@
 ---
 
 author: jamison
-layout: post-no-feature
+layout: post
 title: Legality and Immorality
 date: '2012-03-06'
 categories: rants

@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: Sinatra Authentication Roundup Part 1
 date: '2011-01-23'

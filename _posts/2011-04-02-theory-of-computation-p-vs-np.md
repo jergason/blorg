@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 
 title: "Theory of Computation: P and NP"
 date: '2011-04-02'

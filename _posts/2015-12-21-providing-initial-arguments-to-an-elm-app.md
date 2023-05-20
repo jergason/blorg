@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: Providing initial values to an Elm app
 description: ""
 published: true

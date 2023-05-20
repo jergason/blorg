@@ -1,6 +1,6 @@
 ---
 author: jamison
-layout: post-no-feature
+layout: post
 title: "Cynicism and Experience"
 description: "Be experienced, not cynical."
 categories: rants
