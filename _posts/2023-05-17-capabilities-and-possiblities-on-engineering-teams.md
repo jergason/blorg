@@ -20,6 +20,6 @@ After the team has developed a capability, doing the thing doesn't require speci
 
 ## Capabilities And Leverage
 
-It's possible for a team to have expertise at something but not turn that expertise in to a capability. This can happen on teams with long tenure. Engineers just know the domain so well that the right thing seems obvious and they don't build tooling or processes around it. How many times have you seen deployment processes that involve bloodletting and careful consideration of the phases of the moon that the team is just [used to](./03-16-2019/starting-a-new-job-and-noticing-things)?
+It's possible for a team to have expertise at something but not turn that expertise in to a capability. This can happen on teams with long tenure. Engineers just know the domain so well that the right thing seems obvious and they don't build tooling or processes around it. How many times have you seen deployment processes that involve bloodletting and careful consideration of the phases of the moon that the team is just [used to](/03-16-2019/starting-a-new-job-and-noticing-things)?
 
 Identifying and developing capabilities can be a high-leverage activity. Senior engineers and managers should think about capabilities, identify gaps, and help teams develop capabilities. Picking capabilities to invest in can often be a judgement call, but if you get it right, you can make the right things easy.
