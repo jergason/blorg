@@ -2,14 +2,17 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Links
+  - title: Links And Stuff
     entries:
-      - title: 🎙️ Soft Skills Engineering 🎙️
-        url: https://softskills.audio
+      - title: <a href="https://softskills.audio">🎙️ Soft Skills Engineering 🎙️</a> is a podcast I do with my friend <a href="https://twitter.com/djsmith42">Dave</a>. Maybe you'd like it?
       - title: 🐦 Twitter 🐦
         url: https://twitter.com/jamison_dance
-      - title: GitHub
+      - title: 🦣 Mastodon 🦣
+        url: https://mastodon.xyz/@jergason
+      - title: 🐙 GitHub 🐱
         url: https://github.com/jergason
+      - title: 🕴️LinkedIn🕴️
+        url: https://www.linkedin.com/in/jamisondance/
       - title: About Me
         url: about
 
