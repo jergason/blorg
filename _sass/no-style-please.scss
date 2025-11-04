@@ -1,12 +1,44 @@
-// -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
+// -------------- BRUTALIST TERMINAL THEME -------------- //
 
-    &.ioda {
-      filter: invert(0);
-    }
+// ascii art blocks
+@mixin ascii-border {
+  &::before {
+    content: "+" + str-repeat("-", 60) + "+";
+    display: block;
+    overflow: hidden;
+  }
+  &::after {
+    content: "+" + str-repeat("-", 60) + "+";
+    display: block;
+    overflow: hidden;
+  }
+}
+
+// dark mode (inverted terminal style)
+@mixin dark-appearance {
+  background: #000;
+  color: #0f0;
+
+  a {
+    color: #0ff;
+  }
+
+  code {
+    background: #111;
+    color: #0f0;
+  }
+
+  blockquote {
+    border-color: #0f0;
+  }
+
+  table, th, td {
+    border-color: #0f0;
+  }
+
+  hr::before,
+  hr::after {
+    color: #0f0;
   }
 }
 
@@ -19,116 +51,548 @@ body[a="dark"] {
     @include dark-appearance;
   }
 }
-// -------------------------------------------- //
+
+// -------------- BASE STYLES -------------- //
 
 :root {
-  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --mono: "Berkeley Mono", "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --bg: #fff;
+  --fg: #000;
+  --accent: #00f;
+  --border: #000;
+  --grid: 8px;
 }
-// bg color is also needed in html in order to
-// block body's background propagation
-// see: https://stackoverflow.com/a/61265706
-html,
-body {
-  background: white;
+
+* {
+  box-sizing: border-box;
 }
 
 html {
   height: 100%;
+  font-size: 16px;
 }
 
 body {
-  color: black;
-  font-family: var(--system-ui);
-  font-size: 16px;
-  line-height: 1.4;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 0.875rem;
+  line-height: 1.5;
   margin: 0;
   min-height: 100%;
-  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.post-meta {
-  text-align: right;
+// -------------- TYPOGRAPHY -------------- //
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 2rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 3rem;
+h1 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--fg);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  &::before {
+    content: "# ";
+    opacity: 0.5;
+  }
 }
 
-hr {
-  margin: 2rem 0;
+h2 {
+  font-size: 1.25rem;
+  &::before {
+    content: "## ";
+    opacity: 0.5;
+  }
+}
+
+h3 {
+  font-size: 1.125rem;
+  &::before {
+    content: "### ";
+    opacity: 0.5;
+  }
 }
 
 p {
   margin: 1rem 0;
 }
 
-li {
-  margin: 0.4rem 0;
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+  &:visited {
+    color: #551a8b; // standard visited purple, darker for better contrast
+  }
+
+  &:hover {
+    background: #000;
+    color: #fff !important; // force white even for visited links
+    text-decoration: none;
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+  }
+
+  &:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
 }
 
-*:target {
-  background: yellow;
-}
+// -------------- LAYOUT -------------- //
 
 .w {
-  max-width: 640px;
+  max-width: 72ch;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
 }
 
-hr {
-  text-align: center;
-  border: 0;
+header {
+  margin-bottom: 2rem;
 
-  &:before {
-    content: "/////";
+  .site-header {
+    border: 3px double var(--border);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    box-shadow:
+      1px 0 0 0 var(--border),
+      0 1px 0 0 var(--border),
+      2px 1px 0 0 var(--border),
+      1px 2px 0 0 var(--border),
+      3px 2px 0 0 rgba(0,0,0,0.2),
+      2px 3px 0 0 rgba(0,0,0,0.2);
+
+    &::before {
+      content: "[SYSTEM]";
+      position: absolute;
+      top: -1px;
+      left: 10px;
+      background: #fff;
+      padding: 0 0.5rem;
+      font-size: 0.625rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: bold;
+    }
   }
-  &:after {
-    content: attr(data-content) "/////";
+
+  .site-title {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    &::before {
+      content: "";  // remove the # prefix for main title
+    }
+  }
+
+  .site-description {
+    margin: 1rem 0 0;
+    opacity: 0.7;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
   }
 }
 
-table {
-  width: 100%;
+// -------------- LISTS & NAVIGATION -------------- //
+
+ul, ol {
+  padding-left: 2ch;
+  margin: 1rem 0;
 }
 
-table,
-th,
-td {
-  border: thin solid black;
-  border-collapse: collapse;
-  padding: 0.4rem;
+li {
+  margin: 0.25rem 0;
+
+  &::marker {
+    color: var(--accent);
+  }
 }
+
+// -------------- MENU STRUCTURE -------------- //
+
+.main-nav {
+  margin: 2rem 0;
+}
+
+.menu-section {
+  margin: 0;
+}
+
+.menu-category {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  background: #f9f9f9;
+  position: relative;
+  box-shadow:
+    1px 0 0 0 var(--border),
+    0 1px 0 0 var(--border),
+    2px 1px 0 0 var(--border),
+    1px 2px 0 0 var(--border),
+    3px 2px 0 0 rgba(0,0,0,0.2),
+    2px 3px 0 0 rgba(0,0,0,0.2);
+
+  .menu-title {
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 0.5rem 1rem;
+    background: var(--fg);
+    color: var(--bg);
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    &::before {
+      content: "■ ";
+    }
+  }
+
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0.5rem;
+      margin: 0.25rem 0;
+      border-left: 3px solid transparent;
+      transition: all 0.1s ease;
+
+      &:hover {
+        border-left-color: var(--accent);
+        background: rgba(0, 0, 255, 0.02);
+      }
+
+      .menu-marker {
+        color: var(--accent);
+        opacity: 0.5;
+        margin-right: 0.5rem;
+        font-size: 0.75rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--accent);
+
+        &:visited {
+          color: #551a8b;
+        }
+
+        &:hover {
+          background: #000;
+          color: #fff !important;
+          outline: 2px solid var(--accent);
+          outline-offset: -2px;
+          text-decoration: none;
+        }
+
+        &:focus {
+          outline: 2px solid var(--accent);
+          outline-offset: 2px;
+        }
+      }
+    }
+  }
+}
+
+.menu-item-single {
+  padding: 0.5rem 0;
+
+  .menu-link {
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+// -------------- CODE & PRE -------------- //
 
 code {
-  color: white;
-  background: black;
+  font-family: var(--mono);
+  font-size: 0.875em;
+  background: #f0f0f0;
+  padding: 0.125rem 0.25rem;
+  border: 1px solid #ddd;
 }
 
-div.highlighter-rouge code {
-  display: block;
+pre {
   overflow-x: auto;
-  white-space: pre-wrap;
+  background: #000;
+  color: #0f0;
   padding: 1rem;
+  border: 1px solid var(--border);
+  position: relative;
+  box-shadow:
+    1px 0 0 0 var(--border),
+    0 1px 0 0 var(--border),
+    2px 1px 0 0 var(--border),
+    1px 2px 0 0 var(--border),
+    3px 2px 0 0 rgba(0,0,0,0.3),
+    2px 3px 0 0 rgba(0,0,0,0.3);
+
+  &::before {
+    content: "[CODE]";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: var(--bg);
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    display: block;
+    white-space: pre;
+  }
 }
 
-blockquote {
-  font-style: italic;
-  border: thin solid black;
-  padding: 1rem;
+div.highlighter-rouge {
+  margin: 1.5rem 0;
 
-  p {
+  pre {
     margin: 0;
   }
 }
 
+// -------------- BLOCKS -------------- //
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  background: #fafafa;
+  font-style: normal;
+  position: relative;
+  box-shadow:
+    1px 0 0 0 var(--border),
+    0 1px 0 0 var(--border),
+    2px 1px 0 0 var(--border),
+    1px 2px 0 0 var(--border),
+    3px 2px 0 0 rgba(0,0,0,0.2),
+    2px 3px 0 0 rgba(0,0,0,0.2);
+
+  &::before {
+    content: "\"";
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 2rem;
+    opacity: 0.2;
+  }
+
+  p {
+    margin: 0;
+    padding-left: 1rem;
+  }
+}
+
+hr {
+  border: none;
+  text-align: center;
+  margin: 3rem 0;
+
+  &::before {
+    content: "* * *";
+    letter-spacing: 1em;
+    opacity: 0.5;
+  }
+
+  &::after {
+    content: "";
+  }
+}
+
+// -------------- TABLES -------------- //
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  position: relative;
+  border: 1px solid var(--border);
+  box-shadow:
+    1px 0 0 0 var(--border),
+    0 1px 0 0 var(--border),
+    2px 1px 0 0 var(--border),
+    1px 2px 0 0 var(--border),
+    3px 2px 0 0 rgba(0,0,0,0.2),
+    2px 3px 0 0 rgba(0,0,0,0.2);
+}
+
+thead {
+  background: #f0f0f0;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  font-weight: 700;
+}
+
+// -------------- IMAGES -------------- //
+
 img {
   max-width: 100%;
+  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 1.5rem auto;
+  border: 1px solid var(--border);
+}
+
+// -------------- POST META -------------- //
+
+.post-meta {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  border-top: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--border);
+}
+
+// -------------- ARCHIVE/POST LIST -------------- //
+
+.post-list {
+  margin: 1rem 0;
+}
+
+.post-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px dotted #ccc;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    .post-title a {
+      color: var(--accent);
+    }
+  }
+
+  .post-date {
+    font-size: 0.75rem;
+    color: #666;
+    font-family: var(--mono);
+    white-space: nowrap;
+  }
+
+  .post-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+
+      &:visited {
+        color: #551a8b;
+      }
+
+      &:hover {
+        background: #000;
+        color: #fff !important;
+        outline: 2px solid var(--accent);
+        outline-offset: -2px;
+      }
+
+      &:focus {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+    }
+  }
+}
+
+.post-list-container {
+  margin: 0 -0.5rem;
+  padding: 0 0.5rem;
+}
+
+.show-more {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+
+  .more-link {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+// -------------- UTILITY -------------- //
+
+*:target {
+  background: yellow;
+  padding: 0.25rem;
+}
+
+// ascii art decoration for special sections
+.ascii-box {
+  border: none;
+  padding: 1rem;
+  margin: 2rem 0;
+  position: relative;
+
+  &::before {
+    content:
+      "╔════════════════════════════════════════════════════════╗\A"
+      "║                                                        ║\A"
+      "╚════════════════════════════════════════════════════════╝";
+    white-space: pre;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
 }

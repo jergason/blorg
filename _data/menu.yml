@@ -2,43 +2,28 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Links And Stuff
+  - title: Links
     entries:
-      - title: <a href="https://softskills.audio">🎙️ Soft Skills Engineering 🎙️</a> is a podcast I do with my friend <a href="https://twitter.com/djsmith42">Dave</a>. Maybe you'd like it?
-      - title: 🐦 Twitter 🐦
+      - title: <a href="https://softskills.audio">Soft Skills Engineering</a> is a podcast I do with my friend <a href="https://twitter.com/djsmith42">Dave</a>. Maybe you'd like it?
+      - title: Twitter
         url: https://twitter.com/jamison_dance
-      - title: 🦣 Mastodon 🦣
+      - title: Mastodon
         url: https://mastodon.xyz/@jergason
-      - title: 🐙 GitHub 🐱
+      - title: GitHub
         url: https://github.com/jergason
-      - title: 🕴️LinkedIn🕴️
+      - title: LinkedIn
         url: https://www.linkedin.com/in/jamisondance/
       - title: About Me
         url: about
 
-  - title: Blog Posts
+  - title: Writing
     post_list:
       limit: 30
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  # - title: posts by category
-  #   post_list:
-  #     category: example2
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
-
   - title: rss
     url: feed.xml
   - title: sitemap
     url: sitemap.xml
-
-  # - title: another list
-  #   entries:
-  #     - title: with subitems
-  #       entries:
-  #         - title: with subsubitems
-  #         - title: example page
-  #           url: about

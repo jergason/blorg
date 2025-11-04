@@ -2,12 +2,16 @@
 layout: default
 ---
 <header>
-  <h1>{{ site.title }}</h1>
+  <div class="site-header">
+    <h1 class="site-title">{{ site.title | upcase }}</h1>
+  </div>
   {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
+    <p class="site-description">{{ site.description }}</p>
   {%-endif-%}
 </header>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
+<nav class="main-nav" aria-label="Main navigation">
+  {%-include menu_item.html collection=site.data.menu.entries-%}
+</nav>
 
 {{ content }}

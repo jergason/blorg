@@ -1,26 +1,39 @@
-<ul>
+<div class="menu-section">
   {%-for item in include.collection-%}
-    <li>
-    {%- if item.url -%}
-      <a href="{{ item.url }}">{{ item.title }}</a>
-    {%- else -%}
-      {{ item.title }}
-    {%- endif -%}
-    </li>
-
     {%-if item.post_list-%}
-      {%
-        include post_list.html
-          category=item.post_list.category
-          limit=item.post_list.limit
-          show_more=item.post_list.show_more
-          show_more_text=item.post_list.show_more_text
-          show_more_url=item.post_list.show_more_url
-     -%}
-    {%-endif-%}
-
-    {%-if item.entries-%}
-      {%-include menu_item.html collection=item.entries-%}
+      <div class="menu-category">
+        <h2 class="menu-title">{{ item.title }}</h2>
+        <div class="post-list-container">
+          {%
+            include post_list.html
+              category=item.post_list.category
+              limit=item.post_list.limit
+              show_more=item.post_list.show_more
+              show_more_text=item.post_list.show_more_text
+              show_more_url=item.post_list.show_more_url
+          -%}
+        </div>
+      </div>
+    {%-elsif item.entries-%}
+      <div class="menu-category">
+        <h2 class="menu-title">{{ item.title }}</h2>
+        <ul class="menu-items">
+          {%-for entry in item.entries-%}
+            <li>
+              <span class="menu-marker">[{{ forloop.index }}]</span>
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+          {%-endfor-%}
+        </ul>
+      </div>
+    {%-else-%}
+      <div class="menu-item-single">
+        {%- if item.url -%}
+          <a href="{{ item.url }}" class="menu-link">▸ {{ item.title }}</a>
+        {%- else -%}
+          <span class="menu-text">{{ item.title }}</span>
+        {%- endif -%}
+      </div>
     {%-endif-%}
   {%-endfor-%}
-</ul>
+</div>

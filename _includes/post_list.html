@@ -1,5 +1,5 @@
 {%-if include.category-%}
-  {%-assign posts = site.categories[include.category]-%}  
+  {%-assign posts = site.categories[include.category]-%}
 {%-else-%}
   {%-assign posts = site.posts-%}
 {%-endif-%}
@@ -11,15 +11,23 @@
 {%-endif-%}
 
 {%- if posts.size > 0 -%}
-  <ul>
+  <div class="post-list">
     {%- for post in posts limit: include.limit -%}
-        <li>
-          <span>{{- post.date | date: site.theme_config.date_format -}}</span>
+      <article class="post-item">
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
+          [{{- post.date | date: "%Y-%m-%d" -}}]
+        </time>
+        <h3 class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </li>
+        </h3>
+      </article>
     {%- endfor -%}
     {%- if include.show_more and limit_exceeded -%}
-      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
+      <div class="show-more">
+        <a href="{{ include.show_more_url }}" class="more-link">
+          ▼ {{ include.show_more_text | default: "Show more..." }} ▼
+        </a>
+      </div>
     {%- endif -%}
-  </ul>
+  </div>
 {%- endif -%}
