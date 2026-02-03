@@ -2,7 +2,8 @@
 author: jamison
 layout: post
 title: Software Engineering With LLMs
-description: ""
+description: "LLMs are irrepressibly-enthusiastic junior savants. Here is what I've learned about using them well for Real Software Engineering."
+image: /images/sorcerers-apprentice.jpg
 published: true
 ---
 

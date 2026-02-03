@@ -33,4 +33,16 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# social/og config for jekyll-seo-tag
+twitter:
+  username: jamison_dance
+  card: summary_large_image
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/sorcerers-apprentice.jpg
+
 # exclude:
