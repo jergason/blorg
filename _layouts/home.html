@@ -2,12 +2,7 @@
 layout: default
 ---
 <header>
-  <div class="site-header">
-    <h1 class="site-title">{{ site.title | upcase }}</h1>
-  </div>
-  {%-if site.theme_config.show_description-%}
-    <p class="site-description">{{ site.description }}</p>
-  {%-endif-%}
+  {%-include figlet_header.html-%}
 </header>
 
 <nav class="main-nav" aria-label="Main navigation">

@@ -5,10 +5,14 @@ layout: default
 {%-include back_link.html-%}
 
 <article>
-  <p class="post-meta">
-    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
-  </p>
-  
+  <table class="post-meta-table">
+    <tr><td>date</td><td><time datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d" }}</time></td></tr>
+    <tr><td>reading time</td><td>~{{ content | number_of_words | divided_by: 200 | plus: 1 }} min</td></tr>
+    {%- if page.tags and page.tags.size > 0 -%}
+    <tr><td>tags</td><td>{{ page.tags | join: ", " }}</td></tr>
+    {%- endif -%}
+  </table>
+
   <h1>{{ page.title }}</h1>
 
   {{ content }}
