@@ -7,7 +7,7 @@ description: >
   Jamison Dance's blog. Mostly focused on engineering management,
   software design and development, and jokes to himself.
 #Comment out url when working locally to resolve base urls correctly
-url: //jamison.dance
+url: https://jamison.dance
 favicon: "favicon.ico"
 permalink: /:month-:day-:year/:title
 theme_config:
