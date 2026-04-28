@@ -39,10 +39,4 @@ twitter:
   username: jamison_dance
   card: summary_large_image
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /images/sorcerers-apprentice.jpg
-
 # exclude:
