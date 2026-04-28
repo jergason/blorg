@@ -2,6 +2,7 @@
 author: jamison
 layout: post
 title: "Build, Buy, Or Wait"
+image: /images/5-cube.png
 description: "When tech moves quickly, like background agents in early 2026, should you build it yourself, buy it, or wait? Also some random history about cluster orchestration."
 published: true
 ---
