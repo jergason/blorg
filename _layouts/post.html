@@ -2,7 +2,7 @@
 layout: default
 ---
 {%- assign stamp = page.date | date: "%Y.%m.%d" -%}
-{%- capture filed -%}FILED {{ stamp }} UTC{%- endcapture -%}
+{%- capture filed -%}FILED {{ stamp }}{%- endcapture -%}
 {%- assign mins = content | number_of_words | divided_by: 200 | plus: 1 -%}
 {%- assign words = content | number_of_words -%}
 <div class="shell">
