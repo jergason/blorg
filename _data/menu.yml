@@ -1,29 +1,14 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
+# Navigation + social links for the blog templates.
+# `social` powers the "§ Elsewhere" / contact chips on the home and about pages.
 
-entries:
-  - title: Links
-    entries:
-      - title: <a href="https://softskills.audio">Soft Skills Engineering</a> is a podcast I do with my friend <a href="https://twitter.com/djsmith42">Dave</a>. Maybe you'd like it?
-      - title: Twitter
-        url: https://twitter.com/jamison_dance
-      - title: Mastodon
-        url: https://mastodon.xyz/@jergason
-      - title: GitHub
-        url: https://github.com/jergason
-      - title: LinkedIn
-        url: https://www.linkedin.com/in/jamisondance/
-      - title: About Me
-        url: about
-
-  - title: Writing
-    post_list:
-      limit: 30
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-
-  - title: rss
-    url: feed.xml
-  - title: sitemap
-    url: sitemap.xml
+social:
+  - label: Soft Skills Engineering
+    url: https://softskills.audio
+  - label: Twitter / X
+    url: https://twitter.com/jamison_dance
+  - label: Mastodon
+    url: https://mastodon.xyz/@jergason
+  - label: GitHub
+    url: https://github.com/jergason
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jamisondance/

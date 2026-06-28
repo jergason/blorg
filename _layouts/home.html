@@ -1,12 +1,41 @@
 ---
 layout: default
 ---
-<header>
-  {%-include figlet_header.html-%}
-</header>
+{%- assign stamp = site.time | date: "%Y.%m.%d" -%}
+{%- capture readout -%}{{ site.posts.size }} ON RECORD{%- endcapture -%}
+<div class="shell shell--wide">
+  <div class="doc">
+    {%- include doc_head.html stamp=stamp -%}
 
-<nav class="main-nav" aria-label="Main navigation">
-  {%-include menu_item.html collection=site.data.menu.entries-%}
-</nav>
+    <header class="hero">
+      <div class="wordmark">Jamison<br>Dance</div>
+      <div class="abstract">
+        <span class="reg reg--tl"></span>
+        <span class="reg reg--tr"></span>
+        <span class="reg reg--bl"></span>
+        <span class="reg reg--br"></span>
+        <div class="abstract__label">Abstract</div>
+        <p class="abstract__text">{{ site.description | strip_newlines }}</p>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__link" href="{{ "/" | relative_url }}">Writing</a>
+      <a class="nav__link" href="{{ "/about/" | relative_url }}">About</a>
+      <a class="nav__link" href="#links">Links</a>
+      <span class="nav__spacer"></span>
+      <a class="nav__link nav__link--rss" href="{{ "/feed.xml" | relative_url }}">▸ RSS</a>
+    </nav>
+
+    {%- include posts_by_year.html -%}
+
+    <div class="elsewhere" id="links">
+      <div class="elsewhere__label">§ Elsewhere</div>
+      {%- include links.html -%}
+    </div>
+
+    {%- include doc_foot.html readout=readout -%}
+  </div>
+</div>
 
 {{ content }}

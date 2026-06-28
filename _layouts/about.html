@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="shell">
+  <article class="doc">
+    {%- include doc_head.html stamp="PROFILE" -%}
+
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relative_url }}">HOME</a>
+      <span class="crumb__sep"> / </span>
+      <span class="crumb__here">About</span>
+    </nav>
+
+    <div class="post-head">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+
+    <div class="about-body">
+      <div class="about-prose">
+        {{ content }}
+      </div>
+
+      <aside class="spec">
+        <div class="spec__head">Profile · Spec</div>
+        <div class="spec__rows">
+          <div class="spec__row"><span class="k">HANDLE</span><span class="v">@jamison_dance</span></div>
+          <div class="spec__row"><span class="k">PODCAST</span><span class="v">Soft Skills Eng.</span></div>
+          <div class="spec__row"><span class="k">SINCE</span><span class="v">2015</span></div>
+          <div class="spec__row"><span class="k">POSTS</span><span class="v">{{ site.posts.size }} ON RECORD</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="contact">
+      {%- for link in site.data.menu.social -%}
+        <a class="chip" href="{{ link.url }}">{{ link.label }}</a>
+      {%- endfor -%}
+    </div>
+
+    {%- include doc_foot.html readout="PROFILE" -%}
+  </article>
+</div>

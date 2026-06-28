@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: about
 permalink: /about/index.html
-title: About Me
+title: About
 description:
 ---
 

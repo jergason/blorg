@@ -1,19 +1,69 @@
 ---
 layout: default
 ---
+{%- assign stamp = page.date | date: "%Y.%m.%d" -%}
+{%- capture filed -%}FILED {{ stamp }} UTC{%- endcapture -%}
+{%- assign mins = content | number_of_words | divided_by: 200 | plus: 1 -%}
+{%- assign words = content | number_of_words -%}
+<div class="shell">
+  <article class="doc">
+    {%- include doc_head.html stamp=filed -%}
 
-{%-include back_link.html-%}
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relative_url }}">HOME</a>
+      <span class="crumb__sep"> / </span>
+      <a href="{{ "/" | relative_url }}">WRITING</a>
+      <span class="crumb__sep"> / </span>
+      <span class="crumb__here">{{ page.title }}</span>
+    </nav>
 
-<article>
-  <table class="post-meta-table">
-    <tr><td>date</td><td><time datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d" }}</time></td></tr>
-    <tr><td>reading time</td><td>~{{ content | number_of_words | divided_by: 200 | plus: 1 }} min</td></tr>
-    {%- if page.tags and page.tags.size > 0 -%}
-    <tr><td>tags</td><td>{{ page.tags | join: ", " }}</td></tr>
+    <div class="post-head">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {%- if page.description and page.description != "" -%}
+        <p class="lede">{{ page.description }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="meta-strip">
+      <div class="meta-cell">
+        <div class="meta-cell__k">DATE</div>
+        <div class="meta-cell__v"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></div>
+      </div>
+      <div class="meta-cell">
+        <div class="meta-cell__k">READING</div>
+        <div class="meta-cell__v">~{{ mins }} MIN</div>
+      </div>
+      <div class="meta-cell">
+        <div class="meta-cell__k">{% if page.tags and page.tags.size > 0 %}TAGS{% else %}WORDS{% endif %}</div>
+        <div class="meta-cell__v">{% if page.tags and page.tags.size > 0 %}{{ page.tags | join: " · " | upcase }}{% else %}{{ words }}{% endif %}</div>
+      </div>
+    </div>
+
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    {%- if page.previous or page.next -%}
+      <nav class="pager" aria-label="Post navigation">
+        {%- if page.previous -%}
+          <a class="pager__cell" href="{{ page.previous.url | relative_url }}">
+            <div class="pager__dir">← OLDER</div>
+            <div class="pager__title">{{ page.previous.title }}</div>
+          </a>
+        {%- else -%}
+          <span class="pager__cell pager__cell--empty"></span>
+        {%- endif -%}
+        {%- if page.next -%}
+          <a class="pager__cell pager__cell--next" href="{{ page.next.url | relative_url }}">
+            <div class="pager__dir">NEWER →</div>
+            <div class="pager__title">{{ page.next.title }}</div>
+          </a>
+        {%- else -%}
+          <span class="pager__cell pager__cell--empty pager__cell--next"></span>
+        {%- endif -%}
+      </nav>
     {%- endif -%}
-  </table>
 
-  <h1>{{ page.title }}</h1>
-
-  {{ content }}
-</article>
+    {%- include doc_foot.html readout="ARTICLE" -%}
+  </article>
+</div>

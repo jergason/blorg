@@ -2,11 +2,7 @@
 <html lang="{{ page.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
-    <main class="page-content" aria-label="Content">
-      <div class="w">
-        {{ content }}
-      </div>
-    </main>
+    {{ content }}
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
