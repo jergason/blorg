@@ -6,6 +6,8 @@ description: ""
 published: true
 ---
 
+<aside>A few sections of this were written by an LLM, before I discovered my opinions on LLMs for writing assistance. I cringe at it now, but I have left it un-edited instaed of cleaning it up. To be cringe is to be free I guess? I don't use LLM-written prose for personal writing now.</aside>
+
 Practicing hard conversations makes them easier. This is true even if the live conversation doesn't look much like your practice.
 
 ## Hard Conversations As Graphs
