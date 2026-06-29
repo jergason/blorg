@@ -196,37 +196,19 @@ body {
 
 // -------------- HOME · WRITING INDEX (by year) -------------- //
 
-.index { padding: 10px var(--gutter) 18px; }
-
-.year {
-  display: grid;
-  grid-template-columns: 104px 1fr;
-  gap: 24px;
-  padding: 18px 0;
-  border-bottom: var(--rule);
-
-  &:last-child { border-bottom: 0; }
-
-  &__num {
-    font-family: var(--font-mono);
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: var(--ink);
-    line-height: 1;
-  }
-}
+.index { padding: 18px var(--gutter) 24px; }
 
 .row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 18px;
-  padding: 9px 8px;
+  padding: 11px 8px;
   margin: 0 -8px;
   border-bottom: var(--rule-ash);
   transition: background var(--dur-fast) linear;
 
+  &:last-child { border-bottom: 0; }
   &:hover { background: var(--signal); }
 
   &__title { font-family: var(--font-sans); font-size: 16px; color: var(--ink); }
@@ -650,8 +632,6 @@ a { color: inherit; text-decoration: none; }
   .nav__link { flex: 1 0 auto; text-align: center; }
   .nav__spacer { display: none; }
   .nav__link--rss { border-left: 0; }
-
-  .year { grid-template-columns: 1fr; gap: 8px; }
 
   .row {
     flex-direction: column;

@@ -1,0 +1,8 @@
+<div class="index">
+  {%- for post in site.posts -%}
+    <a class="row" href="{{ post.url | relative_url }}">
+      <span class="row__title">{{ post.title }}</span>
+      <span class="row__date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </a>
+  {%- endfor -%}
+</div>

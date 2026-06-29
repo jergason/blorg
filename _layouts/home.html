@@ -22,15 +22,14 @@ layout: default
     <nav class="nav" aria-label="Main navigation">
       <a class="nav__link" href="{{ "/" | relative_url }}">Writing</a>
       <a class="nav__link" href="{{ "/about/" | relative_url }}">About</a>
-      <a class="nav__link" href="#links">Links</a>
       <span class="nav__spacer"></span>
       <a class="nav__link nav__link--rss" href="{{ "/feed.xml" | relative_url }}">▸ RSS</a>
     </nav>
 
-    {%- include posts_by_year.html -%}
+    {%- include post_index.html -%}
 
     <div class="elsewhere" id="links">
-      <div class="elsewhere__label">§ Elsewhere</div>
+      <div class="elsewhere__label">Elsewhere</div>
       {%- include links.html -%}
     </div>
 

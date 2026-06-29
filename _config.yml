@@ -39,4 +39,22 @@ twitter:
   username: jamison_dance
   card: summary_large_image
 
-# exclude:
+exclude:
+  # Jekyll defaults (re-listed because defining `exclude` overrides them)
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  # local scratch / dev artifacts — kept out of the build and the watcher
+  - .playwright-mcp
+  - .claude
+  - specs
+  - bin
+  - opencode.jsonc
+  - llm-post-tweets.md
+  - AGENTS.md
+  - CLAUDE.md
+  - README.md
+  - "redesign-*.png"
+  - "*-reference.png"
+  - ".og-preview.html"

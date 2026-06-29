@@ -1,5 +1,5 @@
 # Navigation + social links for the blog templates.
-# `social` powers the "§ Elsewhere" / contact chips on the home and about pages.
+# `social` powers the "Elsewhere" / contact chips on the home and about pages.
 
 social:
   - label: Soft Skills Engineering
