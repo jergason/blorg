@@ -17,7 +17,7 @@
   --paper-pure:    #E6ECE5; // brighter misted panel
   --fog:           #2A3A38; // deep teal-fog (dark panels / code)
   --ash:           #4A5D5A; // mid-teal rule / secondary ink
-  --graphite:      #7C8F8A; // damp teal text
+  --code-comment:  #A9BBB5; // readable muted text on dark code panels
   --signal:        #C8FF00; // hero / hover highlight — electric lime
   --signal-ink:    #9AD300; // signal pressed
   --blueprint:     #2CE6FF; // scan cyan (used sparingly)
@@ -27,6 +27,14 @@
   // type
   --font-mono:     'Martian Mono', 'Söhne Mono', ui-monospace, Menlo, monospace;
   --font-sans:     system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --type-caption:  0.75rem;
+  --type-ui:       0.8125rem;
+  --type-small:    0.875rem;
+  --type-body:     1rem;
+  --type-lede:     1.125rem;
+  --type-subhead:  1.375rem;
+  --type-title:    clamp(2rem, 5vw, 2.75rem);
+  --type-display:  clamp(2.75rem, 8vw, 4.125rem);
 
   // layout
   --doc-w:         760px;
@@ -53,8 +61,9 @@ body {
   background: var(--page-bg);
   color: var(--ink);
   font-family: var(--font-sans);
-  font-size: 16px;
+  font-size: var(--type-body);
   line-height: 1.55;
+  font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
@@ -92,7 +101,8 @@ body {
   min-height: 26px;
   padding: 4px 14px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--type-caption);
+  line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ash);
@@ -108,7 +118,7 @@ body {
   color: var(--ink);
   &:hover { background: var(--signal); }
 }
-.doc__readout { color: var(--graphite); }
+.doc__readout { color: var(--ash); }
 
 // -------------- HOME · HERO -------------- //
 
@@ -123,7 +133,7 @@ body {
 
 .wordmark {
   font-family: var(--font-mono);
-  font-size: 66px;
+  font-size: var(--type-display);
   font-weight: 800;
   line-height: 0.9;
   letter-spacing: -0.04em;
@@ -139,7 +149,8 @@ body {
 
   &__label {
     font-family: var(--font-mono);
-    font-size: 10px;
+    font-size: var(--type-caption);
+    line-height: 1.25;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ash);
@@ -148,9 +159,10 @@ body {
 
   &__text {
     font-family: var(--font-sans);
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: var(--type-body);
+    line-height: 1.55;
     color: var(--ink);
+    text-wrap: pretty;
   }
 }
 
@@ -175,7 +187,8 @@ body {
 
 .nav__link {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: var(--type-caption);
+  line-height: 1.25;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink);
@@ -211,10 +224,17 @@ body {
   &:last-child { border-bottom: 0; }
   &:hover { background: var(--signal); }
 
-  &__title { font-family: var(--font-sans); font-size: 16px; color: var(--ink); }
+  &__title {
+    font-family: var(--font-sans);
+    font-size: var(--type-body);
+    line-height: 1.4;
+    color: var(--ink);
+    overflow-wrap: break-word;
+  }
   &__date {
     font-family: var(--font-mono);
-    font-size: 12px;
+    font-size: var(--type-caption);
+    line-height: 1.25;
     color: var(--ash);
     white-space: nowrap;
   }
@@ -235,7 +255,8 @@ body {
   border: var(--rule);
   padding: 6px 11px;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--type-caption);
+  line-height: 1.25;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--ink);
@@ -251,7 +272,8 @@ body {
 
   &__label {
     font-family: var(--font-mono);
-    font-size: 10px;
+    font-size: var(--type-caption);
+    line-height: 1.25;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ash);
@@ -264,13 +286,14 @@ body {
 .crumb {
   padding: 16px var(--gutter) 0;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--type-caption);
+  line-height: 1.45;
   letter-spacing: 0.04em;
   color: var(--ash);
 
   a {
     color: var(--ink);
-    border-bottom: var(--rule);
+    text-decoration-line: underline;
     &:hover { background: var(--signal); }
   }
 
@@ -284,20 +307,25 @@ body {
 
 .post-title {
   font-family: var(--font-mono);
-  font-size: 40px;
-  line-height: 1.05;
+  max-width: 24ch;
+  font-size: var(--type-title);
+  line-height: 1.08;
   font-weight: 800;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin: 0;
+  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 
 .lede {
   font-family: var(--font-sans);
-  font-size: 18px;
-  line-height: 1.5;
+  max-width: 60ch;
+  font-size: var(--type-lede);
+  line-height: 1.55;
   color: var(--ash);
   margin: 14px 0 0;
+  text-wrap: pretty;
 }
 
 // -------------- POST · METADATA STRIP -------------- //
@@ -317,20 +345,28 @@ body {
 
   &__k {
     font-family: var(--font-mono);
-    font-size: 9px;
+    font-size: var(--type-caption);
+    line-height: 1.25;
     letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: var(--ash);
   }
-  &__v { font-family: var(--font-mono); font-size: 13px; color: var(--ink); }
+  &__v {
+    font-family: var(--font-mono);
+    font-size: var(--type-ui);
+    line-height: 1.4;
+    color: var(--ink);
+  }
 }
 
 // -------------- PROSE (rendered markdown) -------------- //
 
 .prose {
+  max-width: calc(70ch + (var(--gutter) * 2));
   padding: 24px var(--gutter) 8px;
   font-family: var(--font-sans);
-  font-size: 16px;
-  line-height: 1.65;
+  font-size: var(--type-body);
+  line-height: 1.6;
   color: var(--ink);
 
   p { margin: 0 0 18px; text-wrap: pretty; }
@@ -340,7 +376,7 @@ body {
 
   a {
     color: var(--ink);
-    border-bottom: var(--rule);
+    text-decoration-line: underline;
     transition: background var(--dur-fast) linear;
     &:hover { background: var(--signal); }
   }
@@ -348,16 +384,17 @@ body {
   h2, h3, h4 {
     font-family: var(--font-mono);
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.15;
     color: var(--ink);
     letter-spacing: -0.01em;
     margin: 32px 0 12px;
+    text-wrap: balance;
   }
-  h2 { font-size: 24px; }
-  h3 { font-size: 19px; text-transform: uppercase; letter-spacing: 0.02em; }
-  h4 { font-size: 16px; text-transform: uppercase; letter-spacing: 0.04em; }
+  h2 { font-size: var(--type-subhead); }
+  h3 { font-size: var(--type-lede); text-transform: uppercase; letter-spacing: 0.02em; }
+  h4 { font-size: var(--type-body); text-transform: uppercase; letter-spacing: 0.04em; }
 
-  ul, ol { margin: 0 0 18px; padding-left: 22px; }
+  ul, ol { margin: 0 0 18px; padding-inline-start: 22px; }
   li { margin: 4px 0; }
   li::marker { color: var(--ash); }
 
@@ -377,12 +414,12 @@ body {
 
   blockquote {
     margin: 0 0 18px;
-    border-left: 3px solid var(--ink);
+    border-inline-start: 3px solid var(--ink);
     background: var(--paper-pure);
     padding: 14px 18px;
-    font-family: var(--font-mono);
-    font-size: 15px;
-    line-height: 1.5;
+    font-family: var(--font-sans);
+    font-size: var(--type-body);
+    line-height: 1.6;
     color: var(--ink);
 
     p { margin: 0; }
@@ -392,7 +429,7 @@ body {
   // inline code — light chip on paper
   code {
     font-family: var(--font-mono);
-    font-size: 13px;
+    font-size: var(--type-ui);
     background: var(--paper-pure);
     border: var(--rule-ash);
     color: var(--ink);
@@ -407,7 +444,7 @@ body {
     padding: 16px;
     border: var(--rule);
     font-family: var(--font-mono);
-    font-size: 13px;
+    font-size: var(--type-ui);
     line-height: 1.6;
     overflow-x: auto;
     white-space: pre;
@@ -430,35 +467,36 @@ body {
     border-collapse: collapse;
     margin: 0 0 20px;
     font-family: var(--font-mono);
-    font-size: 13px;
+    font-size: var(--type-ui);
     border: var(--rule);
   }
-  th, td { border: var(--rule); padding: 6px 12px; text-align: left; }
-  th { background: var(--paper-pure); text-transform: uppercase; font-size: 11px; letter-spacing: 0.04em; }
+  th, td { border: var(--rule); padding: 6px 12px; text-align: start; }
+  th { background: var(--paper-pure); text-transform: uppercase; font-size: var(--type-caption); letter-spacing: 0.04em; }
 
   // kramdown footnotes → "§ Notes"
   .footnotes {
     margin-top: 8px;
     border-top: var(--rule);
     padding-top: 16px;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    line-height: 1.45;
+    font-family: var(--font-sans);
+    font-size: var(--type-small);
+    line-height: 1.55;
     color: var(--ink);
 
     &::before {
       content: "§ Notes";
       display: block;
+      font-family: var(--font-mono);
       font-weight: 700;
-      font-size: 11px;
+      font-size: var(--type-caption);
       letter-spacing: 0.08em;
       text-transform: uppercase;
       margin-bottom: 10px;
     }
 
-    ol { padding-left: 22px; }
+    ol { padding-inline-start: 22px; }
     li::marker { color: var(--ash); }
-    a { color: var(--ink); border-bottom: var(--rule); &:hover { background: var(--signal); } }
+    a { color: var(--ink); text-decoration-line: underline; &:hover { background: var(--signal); } }
   }
 }
 
@@ -466,7 +504,7 @@ body {
 .highlight {
   .k, .kd, .kn, .kp, .kr, .kt, .kv { color: var(--signal); }                 // keywords
   .s, .s1, .s2, .sb, .sc, .dl, .sd, .sh, .sx { color: #8FE3C0; }             // strings
-  .c, .c1, .cm, .cs, .cp { color: var(--graphite); font-style: italic; }      // comments
+  .c, .c1, .cm, .cs, .cp { color: var(--code-comment); }                     // comments
   .nb, .bp { color: var(--blueprint); }                                       // builtins
   .nf, .fm { color: var(--blueprint); }                                       // functions
   .mi, .mf, .mh, .mo, .mb, .mx, .il { color: #FFB35C; }                       // numbers
@@ -492,18 +530,25 @@ body {
   transition: background var(--dur-fast) linear;
 
   &:hover { background: var(--paper-pure); }
-  &--next { border-right: 0; text-align: right; }
+  &--next { border-right: 0; text-align: end; }
   &--empty { background: transparent; pointer-events: none; }
 }
 
 .pager__dir {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--type-caption);
+  line-height: 1.25;
   letter-spacing: 0.08em;
   color: var(--ash);
   margin-bottom: 6px;
 }
-.pager__title { font-family: var(--font-sans); font-size: 15px; color: var(--ink); }
+.pager__title {
+  font-family: var(--font-sans);
+  font-size: var(--type-body);
+  line-height: 1.4;
+  color: var(--ink);
+  text-wrap: pretty;
+}
 
 // -------------- ABOUT -------------- //
 
@@ -517,14 +562,14 @@ body {
 
 .about-prose {
   font-family: var(--font-sans);
-  font-size: 16px;
-  line-height: 1.65;
+  font-size: var(--type-body);
+  line-height: 1.6;
   color: var(--ink);
 
-  p { margin: 0 0 16px; &:last-child { margin-bottom: 0; } }
+  p { margin: 0 0 16px; text-wrap: pretty; &:last-child { margin-bottom: 0; } }
   a {
     color: var(--ink);
-    border-bottom: var(--rule);
+    text-decoration-line: underline;
     transition: background var(--dur-fast) linear;
     &:hover { background: var(--signal); }
   }
@@ -539,7 +584,8 @@ body {
     color: var(--paper);
     padding: 6px 12px;
     font-family: var(--font-mono);
-    font-size: 10px;
+    font-size: var(--type-caption);
+    line-height: 1.25;
     letter-spacing: 0.08em;
     text-transform: uppercase;
   }
@@ -553,11 +599,12 @@ body {
     padding: 8px 12px;
     border-bottom: var(--rule-ash);
     font-family: var(--font-mono);
-    font-size: 11px;
+    font-size: var(--type-caption);
+    line-height: 1.4;
 
     &:last-child { border-bottom: 0; }
     .k { color: var(--ash); }
-    .v { color: var(--ink); text-align: right; }
+    .v { color: var(--ink); text-align: end; }
   }
 }
 
@@ -579,16 +626,16 @@ body {
   padding-bottom: 8px;
   margin-bottom: -32px; // tighten against following doc within the gap
 
-  &__no { font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: var(--ink); }
+  &__no { font-family: var(--font-mono); font-size: var(--type-lede); font-weight: 700; color: var(--ink); }
   &__label {
     font-family: var(--font-mono);
-    font-size: 13px;
+    font-size: var(--type-ui);
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ink);
   }
   &__spacer { flex: 1; }
-  &__tag { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--ash); }
+  &__tag { font-family: var(--font-mono); font-size: var(--type-caption); letter-spacing: 0.08em; color: var(--ash); }
 }
 
 // -------------- FOCUS -------------- //
@@ -599,7 +646,13 @@ a:focus-visible,
   outline-offset: 2px;
 }
 
-a { color: inherit; text-decoration: none; }
+a {
+  color: inherit;
+  text-decoration: none;
+  text-decoration-thickness: from-font;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: auto;
+}
 
 ::selection { background: var(--signal); color: var(--ink); }
 
@@ -614,7 +667,6 @@ a { color: inherit; text-decoration: none; }
     align-items: start;
   }
   .abstract { max-width: 360px; }
-  .wordmark { font-size: 52px; }
 
   .about-body { grid-template-columns: 1fr; }
   .spec { max-width: 360px; }
@@ -624,9 +676,6 @@ a { color: inherit; text-decoration: none; }
   :root { --gutter: 16px; }
 
   .shell { padding: 18px var(--gutter) 56px; gap: 32px; }
-
-  .wordmark { font-size: 40px; }
-  .post-title { font-size: 30px; }
 
   .nav { flex-wrap: wrap; }
   .nav__link { flex: 1 0 auto; text-align: center; }
@@ -643,5 +692,5 @@ a { color: inherit; text-decoration: none; }
   .meta-cell { border-right: 0; border-bottom: var(--rule); &:last-child { border-bottom: 0; } }
 
   .pager { grid-template-columns: 1fr; }
-  .pager__cell { border-right: 0; border-bottom: var(--rule); &--next { text-align: left; } &:last-child { border-bottom: 0; } }
+  .pager__cell { border-right: 0; border-bottom: var(--rule); &--next { text-align: start; } &:last-child { border-bottom: 0; } }
 }
